@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2023-07-17 20:17+0000\n"
-"PO-Revision-Date: 2023-07-17 20:17+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-24 02:01+0000\n"
+"Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
+"Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
+"hrms/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18.2\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: payroll/doctype/salary_structure_assignment/salary_structure_assignment.py:31
@@ -26,6 +29,13 @@ msgid ""
 "\t\t\t\t\t\tfor the correct tax calculation in future salary slips.\n"
 "\t\t\t\t\t\t"
 msgstr ""
+"\n"
+"\t\t\t\t\t\tNão foi encontrado nenhum registro de folha de pagamento para o "
+"funcionário {0}.\n"
+"\t\t\t\t\t\tFavor especificar {1} e {2} (se houver),\n"
+"\t\t\t\t\t\tpara o cálculo correto do imposto em futuros recibos de salário."
+"\n"
+"\t\t\t\t\t\t"
 
 #: hr/report/employee_leave_balance/employee_leave_balance.py:23
 msgid "\"From Date\" can not be greater than or equal to \"To Date\""
@@ -33,185 +43,185 @@ msgstr ""
 
 #: hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:88
 msgid "% Utilization (B + NB) / T"
-msgstr ""
+msgstr "% de utilização (B + NB) / T"
 
 #: hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:94
 msgid "% Utilization (B / T)"
-msgstr ""
+msgstr "% de utilização (B / T)"
 
 #: hr/doctype/employee_checkin/employee_checkin.py:78
 msgid "'employee_field_value' and 'timestamp' are required."
-msgstr ""
+msgstr "'employee_field_value' e 'timestamp' são obrigatórios."
 
 #: hr/doctype/leave_application/leave_application.py:1188
 msgid "(Half Day)"
-msgstr ""
+msgstr "(Meio Período)"
 
 #: hr/utils.py:234 payroll/doctype/payroll_period/payroll_period.py:48
 msgid ") for {0}"
-msgstr ""
+msgstr ") para {0}"
 
 #. Option for a Select field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "0.25"
-msgstr ""
+msgstr "0.25"
 
 #. Option for a Select field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "0.5"
-msgstr ""
+msgstr "0.5"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "00:00"
-msgstr ""
+msgstr "00:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "01:00"
-msgstr ""
+msgstr "01:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "02:00"
-msgstr ""
+msgstr "02:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "03:00"
-msgstr ""
+msgstr "03:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "04:00"
-msgstr ""
+msgstr "04:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "05:00"
-msgstr ""
+msgstr "05:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "06:00"
-msgstr ""
+msgstr "06:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "07:00"
-msgstr ""
+msgstr "07:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "08:00"
-msgstr ""
+msgstr "08:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "09:00"
-msgstr ""
+msgstr "09:00"
 
 #. Option for a Select field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "1.0"
-msgstr ""
+msgstr "1.0"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "10:00"
-msgstr ""
+msgstr "10:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "11:00"
-msgstr ""
+msgstr "11:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "12:00"
-msgstr ""
+msgstr "12:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "13:00"
-msgstr ""
+msgstr "13:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "14:00"
-msgstr ""
+msgstr "14:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "15:00"
-msgstr ""
+msgstr "15:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "16:00"
-msgstr ""
+msgstr "16:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "17:00"
-msgstr ""
+msgstr "17:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "18:00"
-msgstr ""
+msgstr "18:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "19:00"
-msgstr ""
+msgstr "19:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "20:00"
-msgstr ""
+msgstr "20:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "21:00"
-msgstr ""
+msgstr "21:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "22:00"
-msgstr ""
+msgstr "22:00"
 
 #. Option for a Select field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
 msgctxt "Daily Work Summary Group"
 msgid "23:00"
-msgstr ""
+msgstr "23:00"
 
 #. DocType: Payroll Settings:1
 msgid ""
@@ -338,260 +348,262 @@ msgstr ""
 
 #: hr/doctype/job_requisition/job_requisition.py:30
 msgid "A Job Requisition for {0} requested by {1} already exists: {2}"
-msgstr ""
+msgstr "Já existe uma requisição de trabalho para {0} solicitada por {1}: {2}"
 
 #: controllers/employee_reminders.py:120 controllers/employee_reminders.py:251
 msgid "A friendly reminder of an important date for our team."
-msgstr ""
+msgstr "Um lembrete amigável de uma data importante para nossa equipe."
 
 #: hr/utils.py:230 payroll/doctype/payroll_period/payroll_period.py:44
 msgid "A {0} exists between {1} and {2} ("
-msgstr ""
+msgstr "Existe um {0} entre {1} e {2} ("
 
 #. DocType: Salary Component:1
 msgid "Abbr"
-msgstr ""
+msgstr "Abrev"
 
 #. Label of a Data field in DocType 'Salary Component'
 #: payroll/doctype/salary_component/salary_component.json
 msgctxt "Salary Component"
 msgid "Abbr"
-msgstr ""
+msgstr "Abrev"
 
 #. Label of a Data field in DocType 'Salary Detail'
 #: payroll/doctype/salary_detail/salary_detail.json
 msgctxt "Salary Detail"
 msgid "Abbr"
-msgstr ""
+msgstr "Abrev"
 
 #. DocType: Attendance:1
 msgid "Absent"
-msgstr ""
+msgstr "Ausente"
 
 #. Option for a Select field in DocType 'Attendance'
 #: hr/doctype/attendance/attendance.json
 msgctxt "Attendance"
 msgid "Absent"
-msgstr ""
+msgstr "Ausente"
 
 #. Option for a Select field in DocType 'Employee Attendance Tool'
 #: hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 msgctxt "Employee Attendance Tool"
 msgid "Absent"
-msgstr ""
+msgstr "Ausente"
 
 #. Option for a Select field in DocType 'Payroll Settings'
 #: payroll/doctype/payroll_settings/payroll_settings.json
 msgctxt "Payroll Settings"
 msgid "Absent"
-msgstr ""
+msgstr "Ausente"
 
 #. Option for a Select field in DocType 'Training Event Employee'
 #: hr/doctype/training_event_employee/training_event_employee.json
 msgctxt "Training Event Employee"
 msgid "Absent"
-msgstr ""
+msgstr "Ausente"
 
 #. DocType: Salary Slip:1
 msgid "Absent Days"
-msgstr ""
+msgstr "Dias de ausência"
 
 #. Label of a Float field in DocType 'Salary Slip'
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Absent Days"
-msgstr ""
+msgstr "Dias de ausência"
 
 #. Name of a role
 #. DocType: Interest:1
 #: hr/doctype/interest/interest.json
 msgid "Academics User"
-msgstr ""
+msgstr "Usuário Acadêmico"
 
 #. DocType: Employee Referral:1
 msgid "Accepted"
-msgstr ""
+msgstr "Aceito"
 
 #. Option for a Select field in DocType 'Employee Referral'
 #: hr/doctype/employee_referral/employee_referral.json
 msgctxt "Employee Referral"
 msgid "Accepted"
-msgstr ""
+msgstr "Aceito"
 
 #. Option for a Select field in DocType 'Job Applicant'
 #: hr/doctype/job_applicant/job_applicant.json
 msgctxt "Job Applicant"
 msgid "Accepted"
-msgstr ""
+msgstr "Aceito"
 
 #. Option for a Select field in DocType 'Job Offer'
 #: hr/doctype/job_offer/job_offer.json
 msgctxt "Job Offer"
 msgid "Accepted"
-msgstr ""
+msgstr "Aceito"
 
 #. DocType: Full and Final Outstanding Statement:1
 msgid "Account"
-msgstr ""
+msgstr "Conta"
 
 #. Label of a Link field in DocType 'Full and Final Outstanding Statement'
 #: hr/doctype/full_and_final_outstanding_statement/full_and_final_outstanding_statement.json
 msgctxt "Full and Final Outstanding Statement"
 msgid "Account"
-msgstr ""
+msgstr "Conta"
 
 #. Label of a Link field in DocType 'Salary Component Account'
 #: payroll/doctype/salary_component_account/salary_component_account.json
 msgctxt "Salary Component Account"
 msgid "Account"
-msgstr ""
+msgstr "Conta"
 
 #. Label of a Tab Break field in DocType 'Salary Structure'
 #: payroll/doctype/salary_structure/salary_structure.json
 msgctxt "Salary Structure"
 msgid "Account"
-msgstr ""
+msgstr "Conta"
 
 #. DocType: Expense Taxes and Charges:1
 msgid "Account Head"
-msgstr ""
+msgstr "Chefe de contas"
 
 #. Label of a Link field in DocType 'Expense Taxes and Charges'
 #: hr/doctype/expense_taxes_and_charges/expense_taxes_and_charges.json
 msgctxt "Expense Taxes and Charges"
 msgid "Account Head"
-msgstr ""
+msgstr "Chefe de contas"
 
 #: payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:49
 msgid "Account No"
-msgstr ""
+msgstr "Número da conta"
 
 #: payroll/doctype/payroll_entry/payroll_entry.py:90
 msgid ""
 "Account type cannot be set for payroll payable account {0}, please remove"
 " and try again"
 msgstr ""
+"O tipo de conta não pode ser definido para a conta de folha de pagamento {0}"
+", remova e tente novamente"
 
 #: overrides/company.py:115
 msgid "Account {0} does not belong to company: {1}"
-msgstr ""
+msgstr "A Conta {0} não pertence à Empresa: {1}"
 
 #: hr/doctype/expense_claim_type/expense_claim_type.py:29
 msgid "Account {0} does not match with Company {1}"
-msgstr ""
+msgstr "A conta {0} não corresponde à empresa {1}"
 
 #. Label of a Card Break in the Salary Payout Workspace
 #: payroll/workspace/salary_payout/salary_payout.json
 msgid "Accounting"
-msgstr ""
+msgstr "Contabilidade"
 
 #. DocType: Payroll Entry:1
 msgid "Accounting & Payment"
-msgstr ""
+msgstr "Contabilidade e pagamento"
 
 #. Label of a Tab Break field in DocType 'Payroll Entry'
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Accounting & Payment"
-msgstr ""
+msgstr "Contabilidade e pagamento"
 
 #. DocType: Expense Claim:1
 msgid "Accounting Details"
-msgstr ""
+msgstr "Detalhes da Contabilidade"
 
 #. Label of a Section Break field in DocType 'Expense Claim'
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Accounting Details"
-msgstr ""
+msgstr "Detalhes da Contabilidade"
 
 #. Label of a Link in the Salary Payout Workspace
 #: payroll/workspace/salary_payout/salary_payout.json
 msgctxt "Accounting Dimension"
 msgid "Accounting Dimension"
-msgstr ""
+msgstr "Dimensão Contábil"
 
 #. DocType: Expense Claim:1
 msgid "Accounting Dimensions"
-msgstr ""
+msgstr "Dimensões Contábeis"
 
 #. Label of a Section Break field in DocType 'Expense Claim'
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Accounting Dimensions"
-msgstr ""
+msgstr "Dimensões Contábeis"
 
 #. Label of a Section Break field in DocType 'Expense Claim Detail'
 #: hr/doctype/expense_claim_detail/expense_claim_detail.json
 msgctxt "Expense Claim Detail"
 msgid "Accounting Dimensions"
-msgstr ""
+msgstr "Dimensões Contábeis"
 
 #. Label of a Section Break field in DocType 'Expense Taxes and Charges'
 #: hr/doctype/expense_taxes_and_charges/expense_taxes_and_charges.json
 msgctxt "Expense Taxes and Charges"
 msgid "Accounting Dimensions"
-msgstr ""
+msgstr "Dimensões Contábeis"
 
 #. Label of a Section Break field in DocType 'Payroll Entry'
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Accounting Dimensions"
-msgstr ""
+msgstr "Dimensões Contábeis"
 
 #. Label of a Section Break field in DocType 'Travel Request'
 #: hr/doctype/travel_request/travel_request.json
 msgctxt "Travel Request"
 msgid "Accounting Dimensions"
-msgstr ""
+msgstr "Dimensões Contábeis"
 
 #: hr/doctype/expense_claim/expense_claim.js:244
 msgid "Accounting Ledger"
-msgstr ""
+msgstr "Registro Contábil"
 
 #. Label of a Card Break in the Expense Claims Workspace
 #. Label of a Card Break in the Salary Payout Workspace
 #: hr/workspace/expense_claims/expense_claims.json
 #: payroll/workspace/salary_payout/salary_payout.json
 msgid "Accounting Reports"
-msgstr ""
+msgstr "Relatórios contábeis"
 
 #. DocType: Expense Claim Type:1
 msgid "Accounts"
-msgstr ""
+msgstr "Contas"
 
 #. Label of a Table field in DocType 'Expense Claim Type'
 #: hr/doctype/expense_claim_type/expense_claim_type.json
 msgctxt "Expense Claim Type"
 msgid "Accounts"
-msgstr ""
+msgstr "Contas"
 
 #. Label of a Section Break field in DocType 'Salary Component'
 #. Label of a Table field in DocType 'Salary Component'
 #: payroll/doctype/salary_component/salary_component.json
 msgctxt "Salary Component"
 msgid "Accounts"
-msgstr ""
+msgstr "Contas"
 
 #. Label of a Link in the Expense Claims Workspace
 #. Label of a Link in the Salary Payout Workspace
 #: hr/workspace/expense_claims/expense_claims.json
 #: payroll/workspace/salary_payout/salary_payout.json
 msgid "Accounts Payable"
-msgstr ""
+msgstr "Contas a Pagar"
 
 #. Label of a Link in the Expense Claims Workspace
 #. Label of a Link in the Salary Payout Workspace
 #: hr/workspace/expense_claims/expense_claims.json
 #: payroll/workspace/salary_payout/salary_payout.json
 msgid "Accounts Receivable"
-msgstr ""
+msgstr "Contas a Receber"
 
 #. Label of a Link in the Salary Payout Workspace
 #: payroll/workspace/salary_payout/salary_payout.json
 msgctxt "Accounts Settings"
 msgid "Accounts Settings"
-msgstr ""
+msgstr "Configurações de Contas"
 
 #: payroll/doctype/payroll_entry/payroll_entry.py:441
 msgid "Accrual Journal Entry for salaries from {0} to {1}"
@@ -4200,7 +4212,7 @@ msgstr ""
 #: hr/doctype/employee_transfer/employee_transfer.js:88
 #: hr/employee_property_update.js:85
 msgid "Current"
-msgstr ""
+msgstr "Moeda"
 
 #. Label of a Data field in DocType 'Employee Property History'
 #: hr/doctype/employee_property_history/employee_property_history.json
@@ -4410,7 +4422,7 @@ msgstr ""
 #: hr/workspace/shift_&_attendance/shift_&_attendance.json
 #: payroll/workspace/payroll/payroll.json
 msgid "Dashboard"
-msgstr ""
+msgstr "Painel de Controle"
 
 #. Title of a Module Onboarding
 #: hr/onboarding_step/data_import/data_import.json
@@ -15214,7 +15226,7 @@ msgstr ""
 
 #. DocType: Daily Work Summary Group:1
 msgid "Reminder"
-msgstr ""
+msgstr "Lembrete"
 
 #. Label of a Section Break field in DocType 'Daily Work Summary Group'
 #: hr/doctype/daily_work_summary_group/daily_work_summary_group.json
