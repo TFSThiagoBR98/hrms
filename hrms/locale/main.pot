@@ -335,6 +335,46 @@ msgid ""
 "<code>Condition: base &gt; 10000</code></li></ol>"
 msgstr ""
 
+#. Workspace Header Text
+#: hr/workspace/employee_lifecycle/employee_lifecycle.json
+#: hr/workspace/expense_claims/expense_claims.json
+#: hr/workspace/leaves/leaves.json hr/workspace/recruitment/recruitment.json
+#: payroll/workspace/tax_&_benefits/tax_&_benefits.json
+msgid "<span class=\"h4\"><b>Masters &amp; Reports</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: hr/workspace/performance/performance.json
+msgid "<span class=\"h4\"><b>Masters &amp; Transactions</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: hr/workspace/hr/hr.json
+msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: payroll/workspace/salary_payout/salary_payout.json
+msgid "<span class=\"h4\"><b>Transactions &amp; Reports</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: hr/workspace/employee_lifecycle/employee_lifecycle.json
+#: hr/workspace/expense_claims/expense_claims.json hr/workspace/hr/hr.json
+#: hr/workspace/leaves/leaves.json hr/workspace/performance/performance.json
+#: hr/workspace/recruitment/recruitment.json
+#: hr/workspace/shift_&_attendance/shift_&_attendance.json
+#: payroll/workspace/payroll/payroll.json
+#: payroll/workspace/salary_payout/salary_payout.json
+#: payroll/workspace/tax_&_benefits/tax_&_benefits.json
+msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: hr/workspace/shift_&_attendance/shift_&_attendance.json
+msgid "<span style=\"font-size: 18px;\"><b>Masters &amp; Reports</b></span>"
+msgstr ""
+
 #: hr/doctype/job_requisition/job_requisition.py:30
 msgid "A Job Requisition for {0} requested by {1} already exists: {2}"
 msgstr ""
@@ -10416,19 +10456,25 @@ msgstr ""
 #: hr/doctype/interview/test_interview.py:196
 #: hr/doctype/interview/test_interview.py:205
 #: hr/doctype/interview/test_interview.py:207
-#: hr/doctype/interview/test_interview.py:214 setup.py:453 setup.py:455
+#: hr/doctype/interview/test_interview.py:214
+#: hr/doctype/interview/test_interview.py:216
+#: hr/doctype/interview/test_interview.py:218
+#: hr/doctype/interview/test_interview.py:225 setup.py:453 setup.py:455
 #: setup.py:488
 msgid "Interview Feedback Reminder"
 msgstr ""
 
-#: hr/doctype/interview/interview.py:273
+#: hr/doctype/interview/interview.py:273 hr/doctype/interview/interview.py:280
 msgid "Interview Feedback {0} submitted successfully"
 msgstr ""
 
 #: hr/doctype/interview/test_interview.py:180
 #: hr/doctype/interview/test_interview.py:189
 #: hr/doctype/interview/test_interview.py:191
-#: hr/doctype/interview/test_interview.py:213 setup.py:441 setup.py:443
+#: hr/doctype/interview/test_interview.py:200
+#: hr/doctype/interview/test_interview.py:202
+#: hr/doctype/interview/test_interview.py:213
+#: hr/doctype/interview/test_interview.py:224 setup.py:441 setup.py:443
 #: setup.py:484
 msgid "Interview Reminder"
 msgstr ""
@@ -13269,7 +13315,7 @@ msgstr ""
 msgid "Only Employee Grievance with status {0} or {1} can be submitted"
 msgstr ""
 
-#: hr/doctype/interview/interview.py:255
+#: hr/doctype/interview/interview.py:255 hr/doctype/interview/interview.py:262
 msgid "Only Interviewer Are allowed to submit Interview Feedback"
 msgstr ""
 
