@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2023-07-17 20:17+0000\n"
-"PO-Revision-Date: 2023-07-24 02:01+0000\n"
+"PO-Revision-Date: 2023-08-12 19:33+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "hrms/pt_BR/>\n"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: hr/report/employee_leave_balance/employee_leave_balance.py:23
 msgid "\"From Date\" can not be greater than or equal to \"To Date\""
-msgstr ""
+msgstr "\"Data Inicial\" não pode ser maior ou igual a \"Data Final\""
 
 #: hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:88
 msgid "% Utilization (B + NB) / T"
@@ -228,6 +228,8 @@ msgid ""
 "<b>Example:</b> SAL-{first_name}-{date_of_birth.year} <br>This will "
 "generate a password like SAL-Jane-1972"
 msgstr ""
+"<b>Exemplo:</b> SAL-{first_name}-{date_of_birth.year} <br>Isso gerará uma "
+"senha como SAL-Jane-1972"
 
 #. Description of a Data field in DocType 'Payroll Settings'
 #: payroll/doctype/payroll_settings/payroll_settings.json
@@ -236,6 +238,8 @@ msgid ""
 "<b>Example:</b> SAL-{first_name}-{date_of_birth.year} <br>This will "
 "generate a password like SAL-Jane-1972"
 msgstr ""
+"<b>Exemplo:</b> SAL-{first_name}-{date_of_birth.year} <br>Isso gerará uma "
+"senha como SAL-Jane-1972"
 
 #: hr/doctype/leave_allocation/leave_allocation.py:277
 #: hr/doctype/leave_allocation/leave_allocation.py:283
@@ -243,6 +247,8 @@ msgid ""
 "<b>Total Leaves Allocated</b> are more than the number of days in the "
 "allocation period"
 msgstr ""
+"<b>Total de licenças alocadas</b> é maior do que o número de dias no período "
+"de alocação"
 
 #. DocType: Salary Component:1
 msgid ""
@@ -607,79 +613,79 @@ msgstr "Configurações de Contas"
 
 #: payroll/doctype/payroll_entry/payroll_entry.py:441
 msgid "Accrual Journal Entry for salaries from {0} to {1}"
-msgstr ""
+msgstr "Lançamento contábil manual de competência para salários de {0} a {1}"
 
 #: hr/doctype/attendance_request/attendance_warnings.html:8
 msgid "Action on Submission"
-msgstr ""
+msgstr "Ação sobre o envio"
 
 #: hr/doctype/job_requisition/job_requisition.js:36
 #: hr/doctype/job_requisition/job_requisition.js:60
 #: hr/doctype/job_requisition/job_requisition.js:62
 msgid "Actions"
-msgstr ""
+msgstr "Ações"
 
 #. DocType: Shift Assignment:1
 #: hr/report/employee_leave_balance/employee_leave_balance.js:46
 #: hr/report/employee_leave_balance_summary/employee_leave_balance_summary.js:40
 msgid "Active"
-msgstr ""
+msgstr "Ativo"
 
 #. Option for a Select field in DocType 'Shift Assignment'
 #: hr/doctype/shift_assignment/shift_assignment.json
 msgctxt "Shift Assignment"
 msgid "Active"
-msgstr ""
+msgstr "Ativo"
 
 #. DocType: Employee Onboarding:1
 msgid "Activities"
-msgstr ""
+msgstr "Atividades"
 
 #. Label of a Table field in DocType 'Employee Onboarding'
 #: hr/doctype/employee_onboarding/employee_onboarding.json
 msgctxt "Employee Onboarding"
 msgid "Activities"
-msgstr ""
+msgstr "Atividades"
 
 #. Label of a Section Break field in DocType 'Employee Onboarding Template'
 #. Label of a Table field in DocType 'Employee Onboarding Template'
 #: hr/doctype/employee_onboarding_template/employee_onboarding_template.json
 msgctxt "Employee Onboarding Template"
 msgid "Activities"
-msgstr ""
+msgstr "Atividades"
 
 #. Label of a Table field in DocType 'Employee Separation'
 #: hr/doctype/employee_separation/employee_separation.json
 msgctxt "Employee Separation"
 msgid "Activities"
-msgstr ""
+msgstr "Atividades"
 
 #. Label of a Section Break field in DocType 'Employee Separation Template'
 #. Label of a Table field in DocType 'Employee Separation Template'
 #: hr/doctype/employee_separation_template/employee_separation_template.json
 msgctxt "Employee Separation Template"
 msgid "Activities"
-msgstr ""
+msgstr "Atividades"
 
 #. DocType: Employee Boarding Activity:1
 msgid "Activity Name"
-msgstr ""
+msgstr "Nome da atividade"
 
 #. Label of a Data field in DocType 'Employee Boarding Activity'
 #: hr/doctype/employee_boarding_activity/employee_boarding_activity.json
 msgctxt "Employee Boarding Activity"
 msgid "Activity Name"
-msgstr ""
+msgstr "Nome da atividade"
 
 #. Label of a Link in the Shift & Attendance Workspace
 #: hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgctxt "Activity Type"
 msgid "Activity Type"
-msgstr ""
+msgstr "Tipo de Atividade"
 
 #. DocType: Employee Tax Exemption Proof Submission Detail:1
 msgid "Actual Amount"
-msgstr ""
+msgstr "Valor real"
 
 #. Label of a Currency field in DocType 'Employee Tax Exemption Proof
 #. Submission Detail'
@@ -688,7 +694,7 @@ msgstr ""
 #: payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgctxt "Employee Tax Exemption Proof Submission Detail"
 msgid "Actual Amount"
-msgstr ""
+msgstr "Valor real"
 
 #: hr/doctype/leave_application/leave_application.py:384
 msgid ""
@@ -696,63 +702,67 @@ msgid ""
 " different leave allocations. You can still apply for leaves which would "
 "be compensated during the next allocation."
 msgstr ""
+"Os saldos reais não estão disponíveis porque o pedido de férias se estende "
+"por diferentes alocações de férias. Você ainda pode solicitar férias que "
+"seriam compensadas durante a próxima alocação."
 
 #: payroll/doctype/salary_structure/salary_structure.js:238
 msgid "Actual type tax cannot be included in Item rate in row {0}"
 msgstr ""
+"Tipo de imposto real não pode ser incluído na tarifa do item na linha {0}"
 
 #. DocType: Leave Block List:1
 msgid "Add Day-wise Dates"
-msgstr ""
+msgstr "Adicionar datas por dia"
 
 #. Label of a Button field in DocType 'Leave Block List'
 #: hr/doctype/leave_block_list/leave_block_list.json
 msgctxt "Leave Block List"
 msgid "Add Day-wise Dates"
-msgstr ""
+msgstr "Adicionar datas por dia"
 
 #: hr/doctype/employee_promotion/employee_promotion.js:48
 #: hr/doctype/employee_transfer/employee_transfer.js:48
 #: hr/employee_property_update.js:45
 msgid "Add Employee Property"
-msgstr ""
+msgstr "Adicionar propriedade de funcionário"
 
 #: public/js/performance/performance_feedback.js:93
 msgid "Add Feedback"
-msgstr ""
+msgstr "Adicionar comentários"
 
 #: hr/doctype/employee_promotion/employee_promotion.js:91
 #: hr/doctype/employee_transfer/employee_transfer.js:91
 #: hr/employee_property_update.js:88
 msgid "Add to Details"
-msgstr ""
+msgstr "Adicionar aos detalhes"
 
 #. DocType: Leave Allocation:1
 #: hr/doctype/leave_policy_assignment/leave_policy_assignment_list.js:80
 msgid "Add unused leaves from previous allocations"
-msgstr ""
+msgstr "Adicionar licenças não utilizadas de alocações anteriores"
 
 #. Label of a Check field in DocType 'Leave Allocation'
 #: hr/doctype/leave_allocation/leave_allocation.json
 msgctxt "Leave Allocation"
 msgid "Add unused leaves from previous allocations"
-msgstr ""
+msgstr "Adicionar licenças não utilizadas de alocações anteriores"
 
 #. Label of a Check field in DocType 'Leave Policy Assignment'
 #: hr/doctype/leave_policy_assignment/leave_policy_assignment.json
 msgctxt "Leave Policy Assignment"
 msgid "Add unused leaves from previous allocations"
-msgstr ""
+msgstr "Adicionar licenças não utilizadas de alocações anteriores"
 
 #. DocType: Employee Performance Feedback:1
 msgid "Added On"
-msgstr ""
+msgstr "Adicionado em"
 
 #. Label of a Datetime field in DocType 'Employee Performance Feedback'
 #: hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 msgctxt "Employee Performance Feedback"
 msgid "Added On"
-msgstr ""
+msgstr "Adicionado em"
 
 #: payroll/doctype/salary_slip/salary_slip.py:1156
 msgid ""
@@ -928,105 +938,111 @@ msgstr ""
 
 #: hr/doctype/goal/goal_tree.js:207
 msgid "All Goals"
-msgstr ""
+msgstr "Todas as metas"
 
 #: hr/doctype/job_opening/job_opening.py:76
 msgid "All Jobs"
-msgstr ""
+msgstr "Todos os empregos"
 
 #: hr/doctype/full_and_final_statement/full_and_final_statement.py:26
 msgid "All allocated assets should be returned before submission"
-msgstr ""
+msgstr "Todos os ativos alocados devem ser devolvidos antes do envio"
 
 #: hr/doctype/employee_onboarding/employee_onboarding.py:48
 msgid "All the mandatory tasks for employee creation are not completed yet."
 msgstr ""
+"Todas as tarefas obrigatórias para a criação de funcionários ainda não foram "
+"concluídas."
 
 #. DocType: Leave Control Panel:1
 msgid "Allocate"
-msgstr ""
+msgstr "Alocar"
 
 #. Label of a Button field in DocType 'Leave Control Panel'
 #: hr/doctype/leave_control_panel/leave_control_panel.json
 msgctxt "Leave Control Panel"
 msgid "Allocate"
-msgstr ""
+msgstr "Atribuir"
 
 #. DocType: Leave Control Panel:1
 msgid "Allocate Leaves"
-msgstr ""
+msgstr "Alocar Licenças"
 
 #. Label of a Section Break field in DocType 'Leave Control Panel'
 #: hr/doctype/leave_control_panel/leave_control_panel.json
 msgctxt "Leave Control Panel"
 msgid "Allocate Leaves"
-msgstr ""
+msgstr "Atribuir Licenças"
 
 #. DocType: Leave Type:1
 msgid "Allocate on Day"
-msgstr ""
+msgstr "Atribuir no dia"
 
 #. Label of a Select field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "Allocate on Day"
-msgstr ""
+msgstr "Atribuir no dia"
 
 #. DocType: Expense Claim Advance:1
+#, fuzzy
 msgid "Allocated Amount"
-msgstr ""
+msgstr "Quantidade Atribuída"
 
 #. Label of a Currency field in DocType 'Expense Claim Advance'
 #: hr/doctype/expense_claim_advance/expense_claim_advance.json
+#, fuzzy
 msgctxt "Expense Claim Advance"
 msgid "Allocated Amount"
-msgstr ""
+msgstr "Quantidade Atribuída"
 
 #: hr/doctype/leave_application/leave_application.js:78
 msgid "Allocated Leaves"
-msgstr ""
+msgstr "Licenças Atribuídas"
 
 #: hr/utils.py:405
 msgid ""
 "Allocated {0} leave(s) via scheduler on {1} based on the 'Allocate on "
 "Day' option set to {2}"
 msgstr ""
+"Atribuiu {0} licença(s) por meio do agendador em {1} com base na opção "
+"\"Atribuir no dia\" definida como {2}"
 
 #. Label of a Card Break in the Leaves Workspace
 #. DocType: Leave Allocation:1
 #: hr/workspace/leaves/leaves.json
 msgid "Allocation"
-msgstr ""
+msgstr "Atribuição"
 
 #. Label of a Section Break field in DocType 'Leave Allocation'
 #: hr/doctype/leave_allocation/leave_allocation.json
 msgctxt "Leave Allocation"
 msgid "Allocation"
-msgstr ""
+msgstr "Atribuição"
 
 #: hr/doctype/leave_allocation/leave_allocation.js:56
 msgid "Allocation Expired!"
-msgstr ""
+msgstr "Atribuição Expirada!"
 
 #. DocType: Leave Type:1
 msgid "Allow Encashment"
-msgstr ""
+msgstr "Permitir a compensação"
 
 #. Label of a Check field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "Allow Encashment"
-msgstr ""
+msgstr "Permitir a compensação"
 
 #. DocType: Leave Type:1
 msgid "Allow Negative Balance"
-msgstr ""
+msgstr "Permitir saldo negativo"
 
 #. Label of a Check field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "Allow Negative Balance"
-msgstr ""
+msgstr "Permitir saldo negativo"
 
 #. DocType: Leave Type:1
 msgid "Allow Over Allocation"
