@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2023-07-17 20:17+0000\n"
-"PO-Revision-Date: 2023-08-12 19:33+0000\n"
+"PO-Revision-Date: 2023-08-17 17:58+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "hrms/pt_BR/>\n"
@@ -774,37 +774,37 @@ msgstr ""
 #: hr/doctype/employee_transfer/employee_transfer.js:166
 #: hr/employee_property_update.js:163
 msgid "Added to details"
-msgstr ""
+msgstr "Adicionado aos detalhes"
 
 #. DocType: Salary Detail:1
 msgid "Additional Amount"
-msgstr ""
+msgstr "Valor adicional"
 
 #. Label of a Currency field in DocType 'Salary Detail'
 #: payroll/doctype/salary_detail/salary_detail.json
 msgctxt "Salary Detail"
 msgid "Additional Amount"
-msgstr ""
+msgstr "Valor adicional"
 
 #. DocType: Employee Referral:1
 msgid "Additional Information "
-msgstr ""
+msgstr "Informação Adicional "
 
 #. Label of a Section Break field in DocType 'Employee Referral'
 #: hr/doctype/employee_referral/employee_referral.json
 msgctxt "Employee Referral"
 msgid "Additional Information "
-msgstr ""
+msgstr "Informação Adicional "
 
 #: payroll/report/provident_fund_deductions/provident_fund_deductions.py:34
 msgid "Additional PF"
-msgstr ""
+msgstr "PF adicional"
 
 #. Name of a DocType
 #. DocType: Leave Encashment:1
 #: payroll/doctype/additional_salary/additional_salary.json
 msgid "Additional Salary"
-msgstr ""
+msgstr "Salário adicional"
 
 #. Label of a Link in the Expense Claims Workspace
 #. Label of a Link in the Salary Payout Workspace
@@ -814,127 +814,131 @@ msgstr ""
 #: payroll/workspace/tax_&_benefits/tax_&_benefits.json
 msgctxt "Additional Salary"
 msgid "Additional Salary"
-msgstr ""
+msgstr "Salário adicional"
 
 #. Label of a Link field in DocType 'Leave Encashment'
 #: hr/doctype/leave_encashment/leave_encashment.json
 msgctxt "Leave Encashment"
 msgid "Additional Salary"
-msgstr ""
+msgstr "Salário adicional"
 
 #. DocType: Salary Detail:1
 msgid "Additional Salary "
-msgstr ""
+msgstr "Salário adicional "
 
 #. Label of a Link field in DocType 'Salary Detail'
 #: payroll/doctype/salary_detail/salary_detail.json
 msgctxt "Salary Detail"
 msgid "Additional Salary "
-msgstr ""
+msgstr "Salário adicional "
 
 #: payroll/doctype/additional_salary/additional_salary.py:109
 msgid ""
 "Additional Salary for referral bonus can only be created against Employee"
 " Referral with status {0}"
 msgstr ""
+"O salário adicional para bônus de indicação só pode ser criado em relação à "
+"Indicação de Funcionário com o estado {0}"
 
 #: payroll/doctype/additional_salary/additional_salary.py:61
 msgid ""
 "Additional Salary: {0} already exist for Salary Component: {1} for period"
 " {2} and {3}"
 msgstr ""
+"Salário Adicional: {0} já existe para o Componente Salarial: {1} para o "
+"período {2} e {3}"
 
 #. DocType: Travel Request:1
 msgid "Address of Organizer"
-msgstr ""
+msgstr "Endereço do Organizador"
 
 #. Label of a Data field in DocType 'Travel Request'
 #: hr/doctype/travel_request/travel_request.json
 msgctxt "Travel Request"
 msgid "Address of Organizer"
-msgstr ""
+msgstr "Endereço do Organizador"
 
 #. DocType: Training Event:1
 msgid "Advance"
-msgstr ""
+msgstr "Adiantamento"
 
 #. Option for a Select field in DocType 'Training Event'
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Advance"
-msgstr ""
+msgstr "Adiantamento"
 
 #. DocType: Employee Advance:1
 msgid "Advance Account"
-msgstr ""
+msgstr "Conta de Adiantamentos"
 
 #. Label of a Link field in DocType 'Employee Advance'
 #: hr/doctype/employee_advance/employee_advance.json
 msgctxt "Employee Advance"
 msgid "Advance Account"
-msgstr ""
+msgstr "Conta de Adiantamentos"
 
 #. Label of a Link field in DocType 'Expense Claim Advance'
 #: hr/doctype/expense_claim_advance/expense_claim_advance.json
 msgctxt "Expense Claim Advance"
 msgid "Advance Account"
-msgstr ""
+msgstr "Conta de Adiantamentos"
 
 #. DocType: Employee Advance:1
 #: hr/report/employee_advance_summary/employee_advance_summary.py:62
 msgid "Advance Amount"
-msgstr ""
+msgstr "Valor Adiantado"
 
 #. Label of a Currency field in DocType 'Employee Advance'
 #: hr/doctype/employee_advance/employee_advance.json
 msgctxt "Employee Advance"
 msgid "Advance Amount"
-msgstr ""
+msgstr "Valor Adiantado"
 
 #. Label of a Data field in DocType 'Travel Itinerary'
 #: hr/doctype/travel_itinerary/travel_itinerary.json
 msgctxt "Travel Itinerary"
 msgid "Advance Amount"
-msgstr ""
+msgstr "Valor Adiantado"
 
 #. DocType: Expense Claim Advance:1
 msgid "Advance Paid"
-msgstr ""
+msgstr "Adiantamento Pago"
 
 #. Label of a Currency field in DocType 'Expense Claim Advance'
 #: hr/doctype/expense_claim_advance/expense_claim_advance.json
 msgctxt "Expense Claim Advance"
 msgid "Advance Paid"
-msgstr ""
+msgstr "Adiantamento Pago"
 
 #. DocType: Expense Claim:1
 msgid "Advance Payments"
-msgstr ""
+msgstr "Pagamentos Adiantados"
 
 #. Label of a Section Break field in DocType 'Expense Claim'
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Advance Payments"
-msgstr ""
+msgstr "Pagamentos Adiantados"
 
 #. Label of a Card Break in the Expense Claims Workspace
 #. DocType: Expense Claim:1
 #: hr/workspace/expense_claims/expense_claims.json
 msgid "Advances"
-msgstr ""
+msgstr "Adiantamentos"
 
 #. Label of a Table field in DocType 'Expense Claim'
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Advances"
-msgstr ""
+msgstr "Adiantamentos"
 
 #. Name of a role
 #. DocType: Leave Application:1
 #: hr/doctype/leave_application/leave_application.json
 #: hr/doctype/leave_ledger_entry/leave_ledger_entry.json
 msgid "All"
-msgstr ""
+msgstr "Todos"
 
 #: hr/doctype/goal/goal_tree.js:207
 msgid "All Goals"
@@ -985,13 +989,11 @@ msgid "Allocate on Day"
 msgstr "Atribuir no dia"
 
 #. DocType: Expense Claim Advance:1
-#, fuzzy
 msgid "Allocated Amount"
 msgstr "Quantidade Atribuída"
 
 #. Label of a Currency field in DocType 'Expense Claim Advance'
 #: hr/doctype/expense_claim_advance/expense_claim_advance.json
-#, fuzzy
 msgctxt "Expense Claim Advance"
 msgid "Allocated Amount"
 msgstr "Quantidade Atribuída"
@@ -1046,43 +1048,43 @@ msgstr "Permitir saldo negativo"
 
 #. DocType: Leave Type:1
 msgid "Allow Over Allocation"
-msgstr ""
+msgstr "Permitir Excesso de Atribuições"
 
 #. Label of a Check field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "Allow Over Allocation"
-msgstr ""
+msgstr "Permitir Excesso de Atribuições"
 
 #. DocType: Income Tax Slab:1
 msgid "Allow Tax Exemption"
-msgstr ""
+msgstr "Permitir isenção de impostos"
 
 #. Label of a Check field in DocType 'Income Tax Slab'
 #: payroll/doctype/income_tax_slab/income_tax_slab.json
 msgctxt "Income Tax Slab"
 msgid "Allow Tax Exemption"
-msgstr ""
+msgstr "Permitir isenção de impostos"
 
 #. DocType: Leave Block List Allow:1
 msgid "Allow User"
-msgstr ""
+msgstr "Permitir usuário"
 
 #. Label of a Link field in DocType 'Leave Block List Allow'
 #: hr/doctype/leave_block_list_allow/leave_block_list_allow.json
 msgctxt "Leave Block List Allow"
 msgid "Allow User"
-msgstr ""
+msgstr "Permitir usuário"
 
 #. DocType: Leave Block List:1
 msgid "Allow Users"
-msgstr ""
+msgstr "Permitir usuários"
 
 #. Label of a Section Break field in DocType 'Leave Block List'
 #: hr/doctype/leave_block_list/leave_block_list.json
 msgctxt "Leave Block List"
 msgid "Allow Users"
-msgstr ""
+msgstr "Permitir usuários"
 
 #. DocType: Shift Type:1
 msgid "Allow check-out after shift end time (in minutes)"
@@ -15877,8 +15879,9 @@ msgid "Salary Component for timesheet based payroll."
 msgstr ""
 
 #. DocType: Employee Promotion:1
+#, fuzzy
 msgid "Salary Currency"
-msgstr ""
+msgstr "Moeda do salário"
 
 #. Label of a Link field in DocType 'Employee Promotion'
 #: hr/doctype/employee_promotion/employee_promotion.json
