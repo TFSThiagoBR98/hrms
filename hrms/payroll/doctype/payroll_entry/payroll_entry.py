@@ -55,9 +55,8 @@ class PayrollEntry(Document):
 	def before_submit(self):
 		self.validate_existing_salary_slips()
 		self.validate_payroll_payable_account()
-		if self.validate_attendance:
-			if self.get_employees_to_mark_attendance():
-				frappe.throw(_("Cannot submit. Attendance is not marked for some employees."))
+		if self.get_employees_with_unmarked_attendance():
+			frappe.throw(_("Cannot submit. Attendance is not marked for some employees."))
 
 	def on_submit(self):
 		self.set_status(update=True, status="Submitted")
@@ -155,8 +154,7 @@ class PayrollEntry(Document):
 		self.set("employees", employees)
 		self.number_of_employees = len(self.employees)
 
-		if self.validate_attendance:
-			return self.get_employees_to_mark_attendance()
+		return self.get_employees_with_unmarked_attendance()
 
 	@frappe.whitelist()
 	def create_salary_slips(self):
@@ -276,7 +274,14 @@ class PayrollEntry(Document):
 				frappe.qb.from_(ss)
 				.join(ssd)
 				.on(ss.name == ssd.parent)
-				.select(ssd.salary_component, ssd.amount, ssd.parentfield, ss.salary_structure, ss.employee)
+				.select(
+					ssd.salary_component,
+					ssd.amount,
+					ssd.parentfield,
+					ssd.additional_salary,
+					ss.salary_structure,
+					ss.employee,
+				)
 				.where((ssd.parentfield == component_type) & (ss.name.isin([d.name for d in salary_slips])))
 			).run(as_dict=True)
 
@@ -292,32 +297,103 @@ class PayrollEntry(Document):
 			component_dict = {}
 
 			for item in salary_components:
-				add_component_to_accrual_jv_entry = True
+				if not self.should_add_component_to_accrual_jv(component_type, item):
+					continue
+
 				employee_cost_centers = self.get_payroll_cost_centers_for_employee(
 					item.employee, item.salary_structure
 				)
+				employee_advance = self.get_advance_deduction(component_type, item)
 
-				if component_type == "earnings":
-					is_flexible_benefit, only_tax_impact = frappe.get_cached_value(
-						"Salary Component", item["salary_component"], ["is_flexible_benefit", "only_tax_impact"]
-					)
-					if is_flexible_benefit == 1 and only_tax_impact == 1:
-						add_component_to_accrual_jv_entry = False
+				for cost_center, percentage in employee_cost_centers.items():
+					amount_against_cost_center = flt(item.amount) * percentage / 100
 
-				if add_component_to_accrual_jv_entry:
-					for cost_center, percentage in employee_cost_centers.items():
-						amount_against_cost_center = flt(item.amount) * percentage / 100
+					if employee_advance:
+						self.add_advance_deduction_entry(
+							item, amount_against_cost_center, cost_center, employee_advance
+						)
+					else:
 						key = (item.salary_component, cost_center)
 						component_dict[key] = component_dict.get(key, 0) + amount_against_cost_center
 
-						if employee_wise_accounting_enabled:
-							self.set_employee_based_payroll_payable_entries(
-								component_type, item.employee, amount_against_cost_center
-							)
+					if employee_wise_accounting_enabled:
+						self.set_employee_based_payroll_payable_entries(
+							component_type, item.employee, amount_against_cost_center
+						)
 
 			account_details = self.get_account(component_dict=component_dict)
 
 			return account_details
+
+	def should_add_component_to_accrual_jv(self, component_type: str, item: dict) -> bool:
+		add_component_to_accrual_jv = True
+		if component_type == "earnings":
+			is_flexible_benefit, only_tax_impact = frappe.get_cached_value(
+				"Salary Component", item["salary_component"], ["is_flexible_benefit", "only_tax_impact"]
+			)
+			if cint(is_flexible_benefit) and cint(only_tax_impact):
+				add_component_to_accrual_jv = False
+
+		return add_component_to_accrual_jv
+
+	def get_advance_deduction(self, component_type: str, item: dict) -> str | None:
+		if component_type == "deductions" and item.additional_salary:
+			ref_doctype, ref_docname = frappe.db.get_value(
+				"Additional Salary",
+				item.additional_salary,
+				["ref_doctype", "ref_docname"],
+			)
+
+			if ref_doctype == "Employee Advance":
+				return ref_docname
+		return
+
+	def add_advance_deduction_entry(
+		self,
+		item: dict,
+		amount: float,
+		cost_center: str,
+		employee_advance: str,
+	) -> None:
+		self._advance_deduction_entries.append(
+			{
+				"employee": item.employee,
+				"account": self.get_salary_component_account(item.salary_component),
+				"amount": amount,
+				"cost_center": cost_center,
+				"reference_type": "Employee Advance",
+				"reference_name": employee_advance,
+			}
+		)
+
+	def set_accounting_entries_for_advance_deductions(
+		self,
+		accounts: list,
+		currencies: list,
+		company_currency: str,
+		accounting_dimensions: list,
+		precision: int,
+		payable_amount: float,
+	):
+		for entry in self._advance_deduction_entries:
+			payable_amount = self.get_accounting_entries_and_payable_amount(
+				entry.get("account"),
+				entry.get("cost_center"),
+				entry.get("amount"),
+				currencies,
+				company_currency,
+				payable_amount,
+				accounting_dimensions,
+				precision,
+				entry_type="credit",
+				accounts=accounts,
+				party=entry.get("employee"),
+				reference_type="Employee Advance",
+				reference_name=entry.get("reference_name"),
+				is_advance="Yes",
+			)
+
+		return payable_amount
 
 	def set_employee_based_payroll_payable_entries(
 		self, component_type, employee, amount, salary_structure=None
@@ -372,10 +448,11 @@ class PayrollEntry(Document):
 	def get_account(self, component_dict=None):
 		account_dict = {}
 		for key, amount in component_dict.items():
-			account = self.get_salary_component_account(key[0])
-			accouting_key = (account, key[1])
+			component, cost_center = key
+			account = self.get_salary_component_account(component)
+			accounting_key = (account, cost_center)
 
-			account_dict[accouting_key] = account_dict.get(accouting_key, 0) + amount
+			account_dict[accounting_key] = account_dict.get(accounting_key, 0) + amount
 
 		return account_dict
 
@@ -385,6 +462,7 @@ class PayrollEntry(Document):
 			"Payroll Settings", "process_payroll_accounting_entry_based_on_employee"
 		)
 		self.employee_based_payroll_payable_entries = {}
+		self._advance_deduction_entries = []
 
 		earnings = (
 			self.get_salary_component_total(
@@ -415,6 +493,15 @@ class PayrollEntry(Document):
 				accounts,
 				earnings,
 				deductions,
+				currencies,
+				company_currency,
+				accounting_dimensions,
+				precision,
+				payable_amount,
+			)
+
+			payable_amount = self.set_accounting_entries_for_advance_deductions(
+				accounts,
 				currencies,
 				company_currency,
 				accounting_dimensions,
@@ -598,6 +685,9 @@ class PayrollEntry(Document):
 		entry_type="credit",
 		party=None,
 		accounts=None,
+		reference_type=None,
+		reference_name=None,
+		is_advance=None,
 	):
 		exchange_rate, amt = self.get_amount_and_exchange_rate_for_journal_entry(
 			account, amount, company_currency, currencies
@@ -641,6 +731,15 @@ class PayrollEntry(Document):
 				}
 			)
 
+		if reference_type:
+			row.update(
+				{
+					"reference_type": reference_type,
+					"reference_name": reference_name,
+					"is_advance": is_advance,
+				}
+			)
+
 		self.update_accounting_dimensions(
 			row,
 			accounting_dimensions,
@@ -676,7 +775,7 @@ class PayrollEntry(Document):
 		return exchange_rate, amount
 
 	@frappe.whitelist()
-	def make_payment_entry(self):
+	def make_bank_entry(self):
 		self.check_permission("write")
 		self.employee_based_payroll_payable_entries = {}
 		employee_wise_accounting_enabled = frappe.db.get_single_value(
@@ -859,38 +958,34 @@ class PayrollEntry(Document):
 		)
 
 	@frappe.whitelist()
-	def get_employees_to_mark_attendance(self) -> list[dict]:
-		holiday_list_based_count = {}
-		employees_to_mark_attendance = []
+	def get_employees_with_unmarked_attendance(self) -> list[dict] | None:
+		if not self.validate_attendance:
+			return
+
+		unmarked_attendance = []
 		employee_details = self.get_employee_and_attendance_details()
+		default_holiday_list = frappe.db.get_value(
+			"Company", self.company, "default_holiday_list", cache=True
+		)
 
 		for emp in self.employees:
-			details = next(
-				(details for details in employee_details if details["name"] == emp.employee), None
-			)
-
+			details = next((record for record in employee_details if record.name == emp.employee), None)
 			if not details:
 				continue
 
-			start_date = self.start_date
-
-			if details.get("date_of_joining") > getdate(self.start_date):
-				start_date = details.get("date_of_joining")
-
-			holidays = self.get_holiday_list_based_count(
-				details["holiday_list"], start_date, holiday_list_based_count
+			start_date, end_date = self.get_payroll_dates_for_employee(details)
+			holidays = self.get_holidays_count(
+				details.holiday_list or default_holiday_list, start_date, end_date
 			)
+			payroll_days = date_diff(end_date, start_date) + 1
+			unmarked_days = payroll_days - (holidays + details.attendance_count)
 
-			attendance_marked = details["attendance_count"] or 0
-
-			payroll_days = date_diff(self.end_date, start_date) + 1
-
-			if payroll_days > (holidays + attendance_marked):
-				employees_to_mark_attendance.append(
-					{"employee": emp.employee, "employee_name": emp.employee_name}
+			if unmarked_days > 0:
+				unmarked_attendance.append(
+					{"employee": emp.employee, "employee_name": emp.employee_name, "unmarked_days": unmarked_days}
 				)
 
-		return employees_to_mark_attendance
+		return unmarked_attendance
 
 	def get_employee_and_attendance_details(self) -> list[dict]:
 		"""Returns a list of employee and attendance details like
@@ -898,53 +993,66 @@ class PayrollEntry(Document):
 		        {
 		                "name": "HREMP00001",
 		                "date_of_joining": "2019-01-01",
+		                "relieving_date": "2022-01-01",
 		                "holiday_list": "Holiday List Company",
 		                "attendance_count": 22
 		        }
 		]
 		"""
 		employees = [emp.employee for emp in self.employees]
-		default_holiday_list = frappe.db.get_value("Company", self.company, "default_holiday_list")
 
 		Employee = frappe.qb.DocType("Employee")
 		Attendance = frappe.qb.DocType("Attendance")
 
 		return (
 			frappe.qb.from_(Employee)
-			.join(Attendance)
-			.on(Employee.name == Attendance.employee)
+			.left_join(Attendance)
+			.on(
+				(Employee.name == Attendance.employee)
+				& (Attendance.attendance_date.between(self.start_date, self.end_date))
+				& (Attendance.docstatus == 1)
+			)
 			.select(
 				Employee.name,
 				Employee.date_of_joining,
-				Coalesce(Employee.holiday_list, default_holiday_list).as_("holiday_list"),
+				Employee.relieving_date,
+				Employee.holiday_list,
 				Count(Attendance.name).as_("attendance_count"),
 			)
-			.where(
-				Attendance.attendance_date.between(self.start_date, self.end_date)
-				& (Employee.name.isin(employees))
-			)
+			.where(Employee.name.isin(employees))
 			.groupby(Employee.name)
 		).run(as_dict=True)
 
-	def get_holiday_list_based_count(
-		self, holiday_list: str, start_date: str, holiday_list_based_count: dict
-	) -> float:
-		key = f"{start_date}-{self.end_date}-{holiday_list}"
+	def get_payroll_dates_for_employee(self, employee_details: dict) -> tuple[str, str]:
+		start_date = self.start_date
+		if employee_details.date_of_joining > getdate(self.start_date):
+			start_date = employee_details.date_of_joining
 
-		if key in holiday_list_based_count:
-			return holiday_list_based_count[key]
+		end_date = self.end_date
+		if employee_details.relieving_date and employee_details.relieving_date < getdate(self.end_date):
+			end_date = employee_details.relieving_date
+
+		return start_date, end_date
+
+	def get_holidays_count(self, holiday_list: str, start_date: str, end_date: str) -> float:
+		"""Returns number of holidays between start and end dates in the holiday list"""
+		if not hasattr(self, "_holidays_between_dates"):
+			self._holidays_between_dates = {}
+
+		key = f"{start_date}-{end_date}-{holiday_list}"
+		if key in self._holidays_between_dates:
+			return self._holidays_between_dates[key]
 
 		holidays = frappe.db.get_all(
 			"Holiday",
-			filters={"parent": holiday_list, "holiday_date": ("between", [start_date, self.end_date])},
-			fields=["count(*) as holiday_count"],
-			as_list=True,
-		)
+			filters={"parent": holiday_list, "holiday_date": ("between", [start_date, end_date])},
+			fields=["COUNT(*) as holidays_count"],
+		)[0]
 
-		if len(holidays) > 0:
-			holiday_list_based_count[key] = holidays[0][0]
+		if holidays:
+			self._holidays_between_dates[key] = holidays.holidays_count
 
-		return holiday_list_based_count[key] or 0
+		return self._holidays_between_dates.get(key) or 0
 
 
 def get_salary_structure(

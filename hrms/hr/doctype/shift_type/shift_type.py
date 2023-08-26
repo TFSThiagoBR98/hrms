@@ -103,14 +103,14 @@ class ShiftType(Document):
 			logs, self.determine_check_in_and_check_out, self.working_hours_calculation_based_on
 		)
 		if (
-			cint(self.enable_entry_grace_period)
+			cint(self.enable_late_entry_marking)
 			and in_time
 			and in_time > logs[0].shift_start + timedelta(minutes=cint(self.late_entry_grace_period))
 		):
 			late_entry = True
 
 		if (
-			cint(self.enable_exit_grace_period)
+			cint(self.enable_early_exit_marking)
 			and out_time
 			and out_time < logs[0].shift_end - timedelta(minutes=cint(self.early_exit_grace_period))
 		):
@@ -193,13 +193,13 @@ class ShiftType(Document):
 
 		shift_details = get_shift_details(self.name, get_datetime(self.last_sync_of_checkin))
 		last_shift_time = (
-			shift_details.actual_start if shift_details else get_datetime(self.last_sync_of_checkin)
+			shift_details.actual_end if shift_details else get_datetime(self.last_sync_of_checkin)
 		)
 
 		# check if shift is found for 1 day before the last sync of checkin
 		# absentees are auto-marked 1 day after the shift to wait for any manual attendance records
 		prev_shift = get_employee_shift(employee, last_shift_time - timedelta(days=1), True, "reverse")
-		if prev_shift:
+		if prev_shift and prev_shift.shift_type.name == self.name:
 			end_date = (
 				min(prev_shift.start_datetime.date(), relieving_date)
 				if relieving_date
