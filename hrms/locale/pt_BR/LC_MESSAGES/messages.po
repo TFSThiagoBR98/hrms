@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2023-07-17 20:17+0000\n"
-"PO-Revision-Date: 2023-08-27 18:12+0000\n"
+"PO-Revision-Date: 2023-08-28 00:33+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "hrms/pt_BR/>\n"
@@ -1563,7 +1563,7 @@ msgstr "Aplicável após (dias úteis)"
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "Applicable After (Working Days)"
-msgstr ""
+msgstr "Aplicável após (dias úteis)"
 
 #. DocType: Gratuity Rule:1
 msgid "Applicable Earnings Component"
@@ -1573,7 +1573,7 @@ msgstr ""
 #: payroll/doctype/gratuity_rule/gratuity_rule.json
 msgctxt "Gratuity Rule"
 msgid "Applicable Earnings Component"
-msgstr ""
+msgstr "Componente de ganhos aplicável"
 
 #. DocType: Appraisal Cycle:1
 msgid "Applicable For"
@@ -1583,7 +1583,7 @@ msgstr ""
 #: hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgctxt "Appraisal Cycle"
 msgid "Applicable For"
-msgstr ""
+msgstr "Aplicável Para"
 
 #. DocType: Employee Boarding Activity:1
 msgid "Applicable in the case of Employee Onboarding"
@@ -1593,7 +1593,7 @@ msgstr ""
 #: hr/doctype/employee_boarding_activity/employee_boarding_activity.json
 msgctxt "Employee Boarding Activity"
 msgid "Applicable in the case of Employee Onboarding"
-msgstr ""
+msgstr "Aplicável no caso de integração de funcionários"
 
 #. DocType: Job Offer:1
 msgid "Applicant Email Address"
@@ -1603,7 +1603,7 @@ msgstr ""
 #: hr/doctype/job_offer/job_offer.json
 msgctxt "Job Offer"
 msgid "Applicant Email Address"
-msgstr ""
+msgstr "Endereço de E-mail do Candidato"
 
 #. DocType: Appointment Letter:1
 msgid "Applicant Name"
@@ -1613,19 +1613,19 @@ msgstr ""
 #: hr/doctype/appointment_letter/appointment_letter.json
 msgctxt "Appointment Letter"
 msgid "Applicant Name"
-msgstr ""
+msgstr "Nome do Candidato"
 
 #. Label of a Data field in DocType 'Job Applicant'
 #: hr/doctype/job_applicant/job_applicant.json
 msgctxt "Job Applicant"
 msgid "Applicant Name"
-msgstr ""
+msgstr "Nome do Candidato"
 
 #. Label of a Data field in DocType 'Job Offer'
 #: hr/doctype/job_offer/job_offer.json
 msgctxt "Job Offer"
 msgid "Applicant Name"
-msgstr ""
+msgstr "Nome do Candidato"
 
 #. DocType: Job Applicant:1
 msgid "Applicant Rating"
@@ -1635,7 +1635,7 @@ msgstr ""
 #: hr/doctype/job_applicant/job_applicant.json
 msgctxt "Job Applicant"
 msgid "Applicant Rating"
-msgstr ""
+msgstr "Classificação do Candidato"
 
 #. DocType: Job Applicant:1
 msgid "Applicant for a Job"
@@ -1643,24 +1643,25 @@ msgstr ""
 
 #: hr/report/recruitment_analytics/recruitment_analytics.py:45
 msgid "Applicant name"
-msgstr ""
+msgstr "Nome do candidato"
 
 #. Label of a Card Break in the Leaves Workspace
 #: hr/workspace/leaves/leaves.json
 msgid "Application"
-msgstr ""
+msgstr "Aplicação"
 
 #: hr/report/recruitment_analytics/recruitment_analytics.py:47
 msgid "Application Status"
-msgstr ""
+msgstr "Estado da Aplicação"
 
 #: hr/doctype/leave_application/leave_application.py:191
 msgid "Application period cannot be across two allocation records"
-msgstr ""
+msgstr "O período de aplicação não pode ser entre dois registros de alocação"
 
 #: hr/doctype/leave_application/leave_application.py:188
 msgid "Application period cannot be outside leave allocation period"
 msgstr ""
+"O período de solicitação não pode estar fora do período de alocação de férias"
 
 #. DocType: Leave Block List:1
 msgid "Applies to Company"
@@ -1670,7 +1671,7 @@ msgstr ""
 #: hr/doctype/leave_block_list/leave_block_list.json
 msgctxt "Leave Block List"
 msgid "Applies to Company"
-msgstr ""
+msgstr "Aplica-se à Empresa"
 
 #. DocType: Leave Application:1
 msgid "Apply / Approve Leaves"
@@ -1681,12 +1682,12 @@ msgstr ""
 #: templates/generators/job_opening.html:25
 #: templates/generators/job_opening.html:29
 msgid "Apply Now"
-msgstr ""
+msgstr "Candidatar-se Agora"
 
 #. Label of a Card Break in the Recruitment Workspace
 #: hr/workspace/recruitment/recruitment.json
 msgid "Appointment"
-msgstr ""
+msgstr "Contratação"
 
 #. DocType: Appointment Letter:1
 msgid "Appointment Date"
@@ -1696,43 +1697,43 @@ msgstr ""
 #: hr/doctype/appointment_letter/appointment_letter.json
 msgctxt "Appointment Letter"
 msgid "Appointment Date"
-msgstr ""
+msgstr "Data da Contratação"
 
 #. Name of a DocType
 #. DocType: Appointment Letter:1
 #: hr/doctype/appointment_letter/appointment_letter.json
 msgid "Appointment Letter"
-msgstr ""
+msgstr "Carta de Contratação"
 
 #. Label of a Link in the Recruitment Workspace
 #: hr/workspace/recruitment/recruitment.json
 msgctxt "Appointment Letter"
 msgid "Appointment Letter"
-msgstr ""
+msgstr "Carta de Contratação"
 
 #. Name of a DocType
 #. DocType: Appointment Letter:1
 #: hr/doctype/appointment_letter_template/appointment_letter_template.json
 msgid "Appointment Letter Template"
-msgstr ""
+msgstr "Modelo de carta de contratação"
 
 #. Label of a Link field in DocType 'Appointment Letter'
 #: hr/doctype/appointment_letter/appointment_letter.json
 msgctxt "Appointment Letter"
 msgid "Appointment Letter Template"
-msgstr ""
+msgstr "Modelo de carta de contratação"
 
 #. Label of a Link in the Recruitment Workspace
 #: hr/workspace/recruitment/recruitment.json
 msgctxt "Appointment Letter Template"
 msgid "Appointment Letter Template"
-msgstr ""
+msgstr "Modelo de carta de contratação"
 
 #. Name of a DocType
 #. DocType: Appointment Letter content:1
 #: hr/doctype/appointment_letter_content/appointment_letter_content.json
 msgid "Appointment Letter content"
-msgstr ""
+msgstr "Conteúdo da carta de contratação"
 
 #. Name of a DocType
 #. Label of a Card Break in the Performance Workspace
@@ -1741,32 +1742,32 @@ msgstr ""
 #: hr/report/appraisal_overview/appraisal_overview.py:44
 #: hr/workspace/performance/performance.json
 msgid "Appraisal"
-msgstr ""
+msgstr "Avaliação"
 
 #. Label of a Link in the Performance Workspace
 #. Label of a shortcut in the Performance Workspace
 #: hr/workspace/performance/performance.json
 msgctxt "Appraisal"
 msgid "Appraisal"
-msgstr ""
+msgstr "Avaliação"
 
 #. Linked DocType in Appraisal Cycle's connections
 #: hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgctxt "Appraisal Cycle"
 msgid "Appraisal"
-msgstr ""
+msgstr "Avaliação"
 
 #. Linked DocType in Appraisal Template's connections
 #: hr/doctype/appraisal_template/appraisal_template.json
 msgctxt "Appraisal Template"
 msgid "Appraisal"
-msgstr ""
+msgstr "Avaliação"
 
 #. Label of a Link field in DocType 'Employee Performance Feedback'
 #: hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 msgctxt "Employee Performance Feedback"
 msgid "Appraisal"
-msgstr ""
+msgstr "Avaliação"
 
 #. Name of a DocType
 #. DocType: Appraisal:1
@@ -1775,94 +1776,94 @@ msgstr ""
 #: hr/report/appraisal_overview/appraisal_overview.js:18
 #: hr/report/appraisal_overview/appraisal_overview.py:37
 msgid "Appraisal Cycle"
-msgstr ""
+msgstr "Ciclo de avaliação"
 
 #. Label of a Link field in DocType 'Appraisal'
 #: hr/doctype/appraisal/appraisal.json
 msgctxt "Appraisal"
 msgid "Appraisal Cycle"
-msgstr ""
+msgstr "Ciclo de avaliação"
 
 #. Label of a Link in the Performance Workspace
 #: hr/workspace/performance/performance.json
 msgctxt "Appraisal Cycle"
 msgid "Appraisal Cycle"
-msgstr ""
+msgstr "Ciclo de avaliação"
 
 #. Label of a Link field in DocType 'Employee Performance Feedback'
 #: hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 msgctxt "Employee Performance Feedback"
 msgid "Appraisal Cycle"
-msgstr ""
+msgstr "Ciclo de avaliação"
 
 #. Label of a Link field in DocType 'Goal'
 #: hr/doctype/goal/goal.json
 msgctxt "Goal"
 msgid "Appraisal Cycle"
-msgstr ""
+msgstr "Ciclo de avaliação"
 
 #. Name of a DocType
 #. DocType: Appraisal Goal:1
 #: hr/doctype/appraisal_goal/appraisal_goal.json
 msgid "Appraisal Goal"
-msgstr ""
+msgstr "Meta de avaliação"
 
 #. Name of a DocType
 #. DocType: Appraisal KRA:1
 #: hr/doctype/appraisal_kra/appraisal_kra.json
 msgid "Appraisal KRA"
-msgstr ""
+msgstr "Avaliação KRA"
 
 #. DocType: Goal:1
 #: hr/doctype/goal/goal_tree.js:95
 msgid "Appraisal Linking"
-msgstr ""
+msgstr "Vinculação de avaliações"
 
 #. Label of a Section Break field in DocType 'Goal'
 #: hr/doctype/goal/goal.json
 msgctxt "Goal"
 msgid "Appraisal Linking"
-msgstr ""
+msgstr "Vinculação de avaliações"
 
 #. Label of a Link in the Performance Workspace
 #. None:1
 #: hr/workspace/performance/performance.json
 msgid "Appraisal Overview"
-msgstr ""
+msgstr "Visão geral da avaliação"
 
 #. Name of a DocType
 #. DocType: Appraisal:1
 #: hr/doctype/appraisal_template/appraisal_template.json
 msgid "Appraisal Template"
-msgstr ""
+msgstr "Modelo de Avaliação"
 
 #. Label of a Link field in DocType 'Appraisal'
 #: hr/doctype/appraisal/appraisal.json
 msgctxt "Appraisal"
 msgid "Appraisal Template"
-msgstr ""
+msgstr "Modelo de Avaliação"
 
 #. Label of a Link in the Performance Workspace
 #: hr/workspace/performance/performance.json
 msgctxt "Appraisal Template"
 msgid "Appraisal Template"
-msgstr ""
+msgstr "Modelo de Avaliação"
 
 #. Label of a Link field in DocType 'Appraisee'
 #: hr/doctype/appraisee/appraisee.json
 msgctxt "Appraisee"
 msgid "Appraisal Template"
-msgstr ""
+msgstr "Modelo de Avaliação"
 
 #. Name of a DocType
 #. DocType: Appraisal Template Goal:1
 #: hr/doctype/appraisal_template_goal/appraisal_template_goal.json
 msgid "Appraisal Template Goal"
-msgstr ""
+msgstr "Meta do Modelo de Avaliação"
 
 #: hr/doctype/appraisal_cycle/appraisal_cycle.py:142
 msgid "Appraisal Template Missing"
-msgstr ""
+msgstr "Modelo de Avaliação ausente"
 
 #. DocType: Appraisal Template:1
 msgid "Appraisal Template Title"
@@ -1872,39 +1873,41 @@ msgstr ""
 #: hr/doctype/appraisal_template/appraisal_template.json
 msgctxt "Appraisal Template"
 msgid "Appraisal Template Title"
-msgstr ""
+msgstr "Título do Modelo de Avaliação"
 
 #: hr/doctype/appraisal_cycle/appraisal_cycle.py:135
 msgid "Appraisal Template not found for some designations."
-msgstr ""
+msgstr "O Modelo de Avaliação não foi encontrado para algumas designações."
 
 #: hr/doctype/appraisal_cycle/appraisal_cycle.py:125
 msgid "Appraisal creation is queued. It may take a few minutes."
-msgstr ""
+msgstr "A criação da Avaliação está na fila. Isso pode levar alguns minutos."
 
 #: hr/doctype/appraisal/appraisal.py:54
 msgid ""
 "Appraisal {0} already exists for Employee {1} for this Appraisal Cycle or"
 " overlapping period"
 msgstr ""
+"A Avaliação {0} já existe para o Funcionário {1} para este Ciclo de "
+"Avaliação ou período sobreposto"
 
 #: hr/doctype/employee_performance_feedback/employee_performance_feedback.py:44
 msgid "Appraisal {0} does not belong to Employee {1}"
-msgstr ""
+msgstr "A Avaliação {0} não pertence ao Funcionário {1}"
 
 #. Name of a DocType
 #. DocType: Appraisee:1
 #: hr/doctype/appraisee/appraisee.json
 msgid "Appraisee"
-msgstr ""
+msgstr "Avaliado"
 
 #: hr/doctype/appraisal_cycle/appraisal_cycle.js:113
 msgid "Appraisees: {0}"
-msgstr ""
+msgstr "Avaliados: {0}"
 
 #: setup.py:382
 msgid "Apprentice"
-msgstr ""
+msgstr "Aprendiz"
 
 #. DocType: Expense Claim:1
 msgid "Approval Status"
@@ -1914,11 +1917,11 @@ msgstr ""
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Approval Status"
-msgstr ""
+msgstr "Estado da Aprovação"
 
 #: hr/doctype/expense_claim/expense_claim.py:98
 msgid "Approval Status must be 'Approved' or 'Rejected'"
-msgstr ""
+msgstr "O Estado da Aprovação deve ser 'Aprovado' ou 'Rejeitado'"
 
 #. DocType: Expense Claim:1
 msgid "Approved"
@@ -1928,19 +1931,19 @@ msgstr ""
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Approved"
-msgstr ""
+msgstr "Aprovado"
 
 #. Option for a Select field in DocType 'Leave Application'
 #: hr/doctype/leave_application/leave_application.json
 msgctxt "Leave Application"
 msgid "Approved"
-msgstr ""
+msgstr "Aprovado"
 
 #. Option for a Select field in DocType 'Shift Request'
 #: hr/doctype/shift_request/shift_request.json
 msgctxt "Shift Request"
 msgid "Approved"
-msgstr ""
+msgstr "Aprovado"
 
 #. DocType: Department Approver:1
 msgid "Approver"
@@ -1950,22 +1953,23 @@ msgstr ""
 #: hr/doctype/department_approver/department_approver.json
 msgctxt "Department Approver"
 msgid "Approver"
-msgstr ""
+msgstr "Aprovador"
 
 #. Label of a Link field in DocType 'Shift Request'
 #: hr/doctype/shift_request/shift_request.json
 msgctxt "Shift Request"
 msgid "Approver"
-msgstr ""
+msgstr "Aprovador"
 
 #: hr/report/monthly_attendance_sheet/monthly_attendance_sheet.js:16
 #: public/js/salary_slip_deductions_report_filters.js:22
+#, fuzzy
 msgid "Apr"
-msgstr ""
+msgstr "Abr"
 
 #: hr/doctype/goal/goal.js:52
 msgid "Archive"
-msgstr ""
+msgstr "Arquivar"
 
 #. DocType: Goal:1
 msgid "Archived"
@@ -1975,15 +1979,15 @@ msgstr ""
 #: hr/doctype/goal/goal.json
 msgctxt "Goal"
 msgid "Archived"
-msgstr ""
+msgstr "Arquivado"
 
 #: hr/doctype/appraisal_cycle/appraisal_cycle.js:87
 msgid "Are you sure you want to proceed?"
-msgstr ""
+msgstr "Tem certeza de que deseja continuar?"
 
 #: hr/doctype/employee_referral/employee_referral.js:9
 msgid "Are you sure you want to reject the Employee Referral?"
-msgstr ""
+msgstr "Tem certeza de que deseja rejeitar a Indicação de Funcionário?"
 
 #. DocType: Travel Itinerary:1
 msgid "Arrival Datetime"
@@ -1993,11 +1997,13 @@ msgstr ""
 #: hr/doctype/travel_itinerary/travel_itinerary.json
 msgctxt "Travel Itinerary"
 msgid "Arrival Datetime"
-msgstr ""
+msgstr "Data de Chegada"
 
 #: payroll/doctype/employee_benefit_application/employee_benefit_application.py:41
 msgid "As per your assigned Salary Structure you cannot apply for benefits"
 msgstr ""
+"De acordo com sua Estrutura Salarial atribuída, você não pode solicitar "
+"benefícios"
 
 #. DocType: Full and Final Asset:1
 msgid "Asset Name"
@@ -2007,7 +2013,7 @@ msgstr ""
 #: hr/doctype/full_and_final_asset/full_and_final_asset.json
 msgctxt "Full and Final Asset"
 msgid "Asset Name"
-msgstr ""
+msgstr "Nome do Ativo"
 
 #. DocType: Full and Final Statement:1
 msgid "Assets Allocated"
@@ -2017,31 +2023,31 @@ msgstr ""
 #: hr/doctype/full_and_final_statement/full_and_final_statement.json
 msgctxt "Full and Final Statement"
 msgid "Assets Allocated"
-msgstr ""
+msgstr "Ativos Alocados"
 
 #: payroll/doctype/salary_structure/salary_structure.js:487
 msgid "Assign"
-msgstr ""
+msgstr "Atribuir"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: payroll/doctype/salary_structure/salary_structure.js:430
 #: payroll/onboarding_step/assign_salary_structure/assign_salary_structure.json
 msgid "Assign Salary Structure"
-msgstr ""
+msgstr "Atribuir Estrutura Salarial"
 
 #: payroll/doctype/salary_structure/salary_structure.js:436
 #: payroll/doctype/salary_structure/salary_structure.js:456
 msgid "Assign to Employees"
-msgstr ""
+msgstr "Atribuir aos Funcionários"
 
 #: payroll/doctype/salary_structure/salary_structure.py:228
 msgid "Assigning Structures..."
-msgstr ""
+msgstr "Atribuindo Estruturas..."
 
 #: hr/doctype/leave_policy_assignment/leave_policy_assignment_list.js:24
 msgid "Assignment Based On"
-msgstr ""
+msgstr "Atribuição Baseada em"
 
 #. DocType: Leave Policy Assignment:1
 msgid "Assignment based on"
@@ -2051,12 +2057,12 @@ msgstr ""
 #: hr/doctype/leave_policy_assignment/leave_policy_assignment.json
 msgctxt "Leave Policy Assignment"
 msgid "Assignment based on"
-msgstr ""
+msgstr "Atribuição baseada em"
 
 #: hr/doctype/job_requisition/job_requisition.js:38
 #: hr/doctype/job_requisition/job_requisition.js:59
 msgid "Associate Job Opening"
-msgstr ""
+msgstr "Associar Vaga de emprego"
 
 #. DocType: Employee Grievance:1
 msgid "Associated Document"
@@ -2066,7 +2072,7 @@ msgstr ""
 #: hr/doctype/employee_grievance/employee_grievance.json
 msgctxt "Employee Grievance"
 msgid "Associated Document"
-msgstr ""
+msgstr "Documento Associado"
 
 #. DocType: Employee Grievance:1
 msgid "Associated Document Type"
@@ -2076,11 +2082,11 @@ msgstr ""
 #: hr/doctype/employee_grievance/employee_grievance.json
 msgctxt "Employee Grievance"
 msgid "Associated Document Type"
-msgstr ""
+msgstr "Tipo de Documento Associado"
 
 #: hr/doctype/exit_interview/exit_interview.py:107
 msgid "Atleast one interview has to be selected."
-msgstr ""
+msgstr "Pelo menos uma entrevista deve ser selecionada."
 
 #. DocType: Employee Benefit Claim:1
 msgid "Attachments"
@@ -2090,13 +2096,13 @@ msgstr ""
 #: payroll/doctype/employee_benefit_claim/employee_benefit_claim.json
 msgctxt "Employee Benefit Claim"
 msgid "Attachments"
-msgstr ""
+msgstr "Anexos"
 
 #. Label of a Attach field in DocType 'Employee Tax Exemption Proof Submission'
 #: payroll/doctype/employee_tax_exemption_proof_submission/employee_tax_exemption_proof_submission.json
 msgctxt "Employee Tax Exemption Proof Submission"
 msgid "Attachments"
-msgstr ""
+msgstr "Anexos"
 
 #. Name of a DocType
 #. Label of a Card Break in the HR Workspace
@@ -2106,7 +2112,7 @@ msgstr ""
 #: hr/workspace/shift_&_attendance/shift_&_attendance.json
 #: overrides/dashboard_overrides.py:15 templates/emails/training_event.html:9
 msgid "Attendance"
-msgstr ""
+msgstr "Presença"
 
 #. Label of a Link in the HR Workspace
 #. Label of a Link in the Shift & Attendance Workspace
@@ -2115,39 +2121,39 @@ msgstr ""
 #: hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgctxt "Attendance"
 msgid "Attendance"
-msgstr ""
+msgstr "Presença"
 
 #. Option for a Select field in DocType 'Payroll Settings'
 #: payroll/doctype/payroll_settings/payroll_settings.json
 msgctxt "Payroll Settings"
 msgid "Attendance"
-msgstr ""
+msgstr "Presença"
 
 #. Label of a Select field in DocType 'Training Event Employee'
 #: hr/doctype/training_event_employee/training_event_employee.json
 msgctxt "Training Event Employee"
 msgid "Attendance"
-msgstr ""
+msgstr "Presença"
 
 #. Label of a chart in the Shift & Attendance Workspace
 #: hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgid "Attendance Count"
-msgstr ""
+msgstr "Contagem de Presença"
 
 #. Label of a shortcut in the HR Workspace
 #: hr/workspace/hr/hr.json
 msgid "Attendance Dashboard"
-msgstr ""
+msgstr "Painel de controle de Presença"
 
 #. DocType: Attendance:1
 msgid "Attendance Date"
-msgstr ""
+msgstr "Data de Presença"
 
 #. Label of a Date field in DocType 'Attendance'
 #: hr/doctype/attendance/attendance.json
 msgctxt "Attendance"
 msgid "Attendance Date"
-msgstr ""
+msgstr "Data de Presença"
 
 #. DocType: Upload Attendance:1
 msgid "Attendance From Date"
@@ -2157,35 +2163,35 @@ msgstr ""
 #: hr/doctype/upload_attendance/upload_attendance.json
 msgctxt "Upload Attendance"
 msgid "Attendance From Date"
-msgstr ""
+msgstr "Presença a partir da Data"
 
 #: hr/doctype/upload_attendance/upload_attendance.js:22
 msgid "Attendance From Date and Attendance To Date is mandatory"
-msgstr ""
+msgstr "A Data Inicial e a Data Final de Presença são obrigatórias"
 
 #. DocType: Employee Checkin:1
 #: hr/doctype/attendance/attendance_list.js:114
 #: hr/doctype/employee_attendance_tool/employee_attendance_tool.js:177
 msgid "Attendance Marked"
-msgstr ""
+msgstr "Presença Marcada"
 
 #. Label of a Link field in DocType 'Employee Checkin'
 #: hr/doctype/employee_checkin/employee_checkin.json
 msgctxt "Employee Checkin"
 msgid "Attendance Marked"
-msgstr ""
+msgstr "Presença Marcada"
 
 #. Name of a DocType
 #. DocType: Attendance:1
 #: hr/doctype/attendance_request/attendance_request.json
 msgid "Attendance Request"
-msgstr ""
+msgstr "Solicitação de Presença"
 
 #. Label of a Link field in DocType 'Attendance'
 #: hr/doctype/attendance/attendance.json
 msgctxt "Attendance"
 msgid "Attendance Request"
-msgstr ""
+msgstr "Solicitação de Presença"
 
 #. Label of a Link in the HR Workspace
 #. Label of a Link in the Shift & Attendance Workspace
@@ -2193,7 +2199,7 @@ msgstr ""
 #: hr/workspace/shift_&_attendance/shift_&_attendance.json
 msgctxt "Attendance Request"
 msgid "Attendance Request"
-msgstr ""
+msgstr "Solicitação de Presença"
 
 #. DocType: Upload Attendance:1
 msgid "Attendance To Date"
@@ -2203,69 +2209,73 @@ msgstr ""
 #: hr/doctype/upload_attendance/upload_attendance.json
 msgctxt "Upload Attendance"
 msgid "Attendance To Date"
-msgstr ""
+msgstr "Presença até a Data"
 
 #: hr/doctype/attendance_request/attendance_request.py:105
 msgid "Attendance Updated"
-msgstr ""
+msgstr "Presença atualizada"
 
 #: hr/doctype/attendance_request/attendance_request.js:19
 msgid "Attendance Warnings"
-msgstr ""
+msgstr "Avisos de Presença"
 
 #: hr/doctype/attendance/attendance.py:56
 msgid "Attendance can not be marked for future dates: {0}"
-msgstr ""
+msgstr "A presença não pode ser marcada para datas futuras: {0}"
 
 #: hr/doctype/attendance/attendance.py:62
 msgid "Attendance date {0} can not be less than employee {1}'s joining date: {2}"
 msgstr ""
+"A data de presença {0} não pode ser inferior à data de entrada do "
+"funcionário {1}: {2}"
 
 #: hr/doctype/employee_attendance_tool/employee_attendance_tool.js:176
 msgid ""
 "Attendance for all the employees under this criteria has been marked "
 "already."
-msgstr ""
+msgstr "A presença de todos os funcionários sob esse critério já foi marcada."
 
 #: hr/doctype/attendance/attendance.py:113
 msgid ""
 "Attendance for employee {0} is already marked for an overlapping shift "
 "{1}: {2}"
 msgstr ""
+"A presença do funcionário {0} já está marcada para um turno sobreposto {1}: "
+"{2}"
 
 #: hr/doctype/attendance/attendance.py:74
 msgid "Attendance for employee {0} is already marked for the date {1}: {2}"
-msgstr ""
+msgstr "A presença do funcionário {0} já está marcada para a data {1}: {2}"
 
 #: hr/doctype/leave_application/leave_application.py:472
 msgid "Attendance for employee {0} is already marked for this day"
-msgstr ""
+msgstr "A presença do funcionário {0} já está marcada para esse dia"
 
 #: hr/doctype/attendance_request/attendance_warnings.html:2
 msgid ""
 "Attendance for the following dates will be skipped/overwritten on "
 "submission"
-msgstr ""
+msgstr "A presença nas datas a seguir será ignorada/sobrescrita no envio"
 
 #: hr/doctype/attendance/attendance_list.js:94
 msgid "Attendance from {0} to {1} has already been marked for the Employee {2}"
-msgstr ""
+msgstr "A presença de {0} a {1} já foi marcada para o Funcionário {2}"
 
 #: hr/doctype/shift_type/shift_type.js:29
 msgid "Attendance has been marked as per employee check-ins"
-msgstr ""
+msgstr "A presença foi marcada de acordo com os controles de funcionários"
 
 #: hr/doctype/employee_attendance_tool/employee_attendance_tool.js:218
 msgid "Attendance marked successfully"
-msgstr ""
+msgstr "Presença marcada com sucesso"
 
 #: hr/doctype/attendance_request/attendance_request.py:122
 msgid "Attendance not submitted for {0} as it is a Holiday."
-msgstr ""
+msgstr "Presença não enviada para {0} por ser Feriado."
 
 #: hr/doctype/attendance_request/attendance_request.py:131
 msgid "Attendance not submitted for {0} as {1} is on leave."
-msgstr ""
+msgstr "A Presença não foi enviada para {0} porque {1} está de licença."
 
 #. DocType: Shift Type:1
 msgid "Attendance will be marked automatically only after this date."
@@ -2275,7 +2285,7 @@ msgstr ""
 #: hr/doctype/shift_type/shift_type.json
 msgctxt "Shift Type"
 msgid "Attendance will be marked automatically only after this date."
-msgstr ""
+msgstr "A presença será marcada automaticamente somente após essa data."
 
 #. DocType: Training Event:1
 msgid "Attendees"
@@ -2285,16 +2295,16 @@ msgstr ""
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Attendees"
-msgstr ""
+msgstr "Presentes"
 
 #: hr/dashboard_chart_source/hiring_vs_attrition_count/hiring_vs_attrition_count.py:45
 msgid "Attrition Count"
-msgstr ""
+msgstr "Contagem de Desligamentos"
 
 #: hr/report/monthly_attendance_sheet/monthly_attendance_sheet.js:20
 #: public/js/salary_slip_deductions_report_filters.js:26
 msgid "Aug"
-msgstr ""
+msgstr "Ago"
 
 #. DocType: Shift Type:1
 msgid "Auto Attendance Settings"
@@ -2304,7 +2314,7 @@ msgstr ""
 #: hr/doctype/shift_type/shift_type.json
 msgctxt "Shift Type"
 msgid "Auto Attendance Settings"
-msgstr ""
+msgstr "Configurações de Presença Automática"
 
 #. DocType: HR Settings:1
 msgid "Auto Leave Encashment"
@@ -2314,7 +2324,7 @@ msgstr ""
 #: hr/doctype/hr_settings/hr_settings.json
 msgctxt "HR Settings"
 msgid "Auto Leave Encashment"
-msgstr ""
+msgstr "Encaminhamento automático de férias"
 
 #. DocType: Appraisal Cycle:1
 msgid "Automated Based on Goal Progress"
@@ -2324,7 +2334,7 @@ msgstr ""
 #: hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgctxt "Appraisal Cycle"
 msgid "Automated Based on Goal Progress"
-msgstr ""
+msgstr "Automatizado com base no progresso da meta"
 
 #. DocType: Salary Slip Leave:1
 #: hr/doctype/leave_application/leave_application_dashboard.html:11
@@ -2335,7 +2345,7 @@ msgstr ""
 #: payroll/doctype/salary_slip_leave/salary_slip_leave.json
 msgctxt "Salary Slip Leave"
 msgid "Available Leave(s)"
-msgstr ""
+msgstr "Licença(s) disponível(is)"
 
 #. DocType: Appraisal:1
 msgid "Average Feedback Score"
@@ -2345,7 +2355,7 @@ msgstr ""
 #: hr/doctype/appraisal/appraisal.json
 msgctxt "Appraisal"
 msgid "Average Feedback Score"
-msgstr ""
+msgstr "Pontuação média de Avaliação"
 
 #. DocType: Interview Detail:1
 msgid "Average Rating"
@@ -2355,13 +2365,13 @@ msgstr ""
 #: hr/doctype/interview_detail/interview_detail.json
 msgctxt "Interview Detail"
 msgid "Average Rating"
-msgstr ""
+msgstr "Classificação Média"
 
 #. Label of a Rating field in DocType 'Interview Feedback'
 #: hr/doctype/interview_feedback/interview_feedback.json
 msgctxt "Interview Feedback"
 msgid "Average Rating"
-msgstr ""
+msgstr "Classificação Média"
 
 #. DocType: Appraisal:1
 msgid "Average of Goal Score, Feedback Score, and Self Appraisal Score (out of 5)"
@@ -2372,18 +2382,20 @@ msgstr ""
 msgctxt "Appraisal"
 msgid "Average of Goal Score, Feedback Score, and Self Appraisal Score (out of 5)"
 msgstr ""
+"Média da Pontuação de Metas, Pontuação de Avaliação e Pontuação de "
+"Autoavaliação (de 5)"
 
 #: hr/report/appraisal_overview/appraisal_overview.py:52
 msgid "Avg Feedback Score"
-msgstr ""
+msgstr "Pontuação média de Avaliação"
 
 #: hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:223
 msgid "Avg Utilization"
-msgstr ""
+msgstr "Utilização Média"
 
 #: hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:229
 msgid "Avg Utilization (Billed Only)"
-msgstr ""
+msgstr "Utilização Média (somente faturada)"
 
 #. DocType: Job Offer:1
 msgid "Awaiting Response"
@@ -2393,15 +2405,15 @@ msgstr ""
 #: hr/doctype/job_offer/job_offer.json
 msgctxt "Job Offer"
 msgid "Awaiting Response"
-msgstr ""
+msgstr "Aguardando resposta"
 
 #: hr/doctype/leave_application/leave_application.py:150
 msgid "Backdated Leave Application is restricted. Please set the {} in {}"
-msgstr ""
+msgstr "O pedido de licença com data retroativa é restrito. Defina o {} em {}"
 
 #: payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:48
 msgid "Bank"
-msgstr ""
+msgstr "Banco"
 
 #. DocType: Payroll Entry:1
 msgid "Bank Account"
@@ -2411,7 +2423,7 @@ msgstr ""
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Bank Account"
-msgstr ""
+msgstr "Conta Bancária"
 
 #. DocType: Salary Slip:1
 msgid "Bank Account No"
@@ -2421,7 +2433,7 @@ msgstr ""
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Bank Account No"
-msgstr ""
+msgstr "Número da Conta Bancária"
 
 #. DocType: Salary Slip:1
 msgid "Bank Details"
@@ -2431,39 +2443,39 @@ msgstr ""
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Bank Details"
-msgstr ""
+msgstr "Dados Bancários"
 
 #: hr/doctype/expense_claim/expense_claim.js:106
 msgid "Bank Entries"
-msgstr ""
+msgstr "Lançamentos Bancários"
 
 #. DocType: Salary Slip:1
 #: payroll/report/bank_remittance/bank_remittance.py:33
 msgid "Bank Name"
-msgstr ""
+msgstr "Nome do Banco"
 
 #. Label of a Data field in DocType 'Salary Slip'
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Bank Name"
-msgstr ""
+msgstr "Nome do Banco"
 
 #. Label of a Link in the Salary Payout Workspace
 #. None:1
 #: payroll/workspace/salary_payout/salary_payout.json
 msgid "Bank Remittance"
-msgstr ""
+msgstr "Remessa Bancária"
 
 #. DocType: Salary Structure Assignment:1
 #: payroll/doctype/salary_structure/salary_structure.js:468
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 #. Label of a Currency field in DocType 'Salary Structure Assignment'
 #: payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgctxt "Salary Structure Assignment"
 msgid "Base"
-msgstr ""
+msgstr "Base"
 
 #. DocType: Salary Structure Assignment:1
 msgid "Base & Variable"
@@ -2473,7 +2485,7 @@ msgstr ""
 #: payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgctxt "Salary Structure Assignment"
 msgid "Base & Variable"
-msgstr ""
+msgstr "Base e Variável"
 
 #. DocType: Employee Boarding Activity:1
 msgid "Begin On (Days)"
@@ -2483,7 +2495,7 @@ msgstr ""
 #: hr/doctype/employee_boarding_activity/employee_boarding_activity.json
 msgctxt "Employee Boarding Activity"
 msgid "Begin On (Days)"
-msgstr ""
+msgstr "Início em (dias)"
 
 #. DocType: Shift Type:1
 msgid "Begin check-in before shift start time (in minutes)"
@@ -2493,7 +2505,7 @@ msgstr ""
 #: hr/doctype/shift_type/shift_type.json
 msgctxt "Shift Type"
 msgid "Begin check-in before shift start time (in minutes)"
-msgstr ""
+msgstr "Bater Ponto de Entrada antes do horário de início do turno (em minutos)"
 
 #. DocType: Training Event:1
 msgid "Beginner"
@@ -2503,45 +2515,45 @@ msgstr ""
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Beginner"
-msgstr ""
+msgstr "Iniciante"
 
 #: controllers/employee_reminders.py:74
 msgid "Below is the list of upcoming holidays for you:"
-msgstr ""
+msgstr "Abaixo está a lista dos próximos feriados para você:"
 
 #: overrides/dashboard_overrides.py:35
 msgid "Benefit"
-msgstr ""
+msgstr "Benefício"
 
 #. Label of a Card Break in the Tax & Benefits Workspace
 #. DocType: Employee Benefit Application:1
 #: payroll/workspace/tax_&_benefits/tax_&_benefits.json
 msgid "Benefits"
-msgstr ""
+msgstr "Benefícios"
 
 #. Label of a Section Break field in DocType 'Employee Benefit Application'
 #: payroll/doctype/employee_benefit_application/employee_benefit_application.json
 msgctxt "Employee Benefit Application"
 msgid "Benefits"
-msgstr ""
+msgstr "Benefícios"
 
 #. Label of a Section Break field in DocType 'Employee Benefit Claim'
 #: payroll/doctype/employee_benefit_claim/employee_benefit_claim.json
 msgctxt "Employee Benefit Claim"
 msgid "Benefits"
-msgstr ""
+msgstr "Benefícios"
 
 #: hr/report/project_profitability/project_profitability.py:159
 msgid "Bill Amount"
-msgstr ""
+msgstr "Valor da Conta"
 
 #: hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:254
 msgid "Billed Hours"
-msgstr ""
+msgstr "Horas Faturadas"
 
 #: hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:70
 msgid "Billed Hours (B)"
-msgstr ""
+msgstr "Horas Faturadas (B)"
 
 #. DocType: Payroll Entry:1
 msgid "Bimonthly"
@@ -2551,27 +2563,27 @@ msgstr ""
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Bimonthly"
-msgstr ""
+msgstr "Bimestral"
 
 #. Option for a Select field in DocType 'Salary Slip'
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Bimonthly"
-msgstr ""
+msgstr "Bimestral"
 
 #. Option for a Select field in DocType 'Salary Structure'
 #: payroll/doctype/salary_structure/salary_structure.json
 msgctxt "Salary Structure"
 msgid "Bimonthly"
-msgstr ""
+msgstr "Bimestral"
 
 #: controllers/employee_reminders.py:130
 msgid "Birthday Reminder"
-msgstr ""
+msgstr "Lembrete de aniversário"
 
 #: controllers/employee_reminders.py:137
 msgid "Birthday Reminder 🎂"
-msgstr ""
+msgstr "Lembrete de aniversário 🎂"
 
 #. DocType: HR Settings:1
 msgid "Birthdays"
@@ -2581,7 +2593,7 @@ msgstr ""
 #: hr/doctype/hr_settings/hr_settings.json
 msgctxt "HR Settings"
 msgid "Birthdays"
-msgstr ""
+msgstr "Aniversários"
 
 #. DocType: Leave Block List Date:1
 msgid "Block Date"
@@ -2591,7 +2603,7 @@ msgstr ""
 #: hr/doctype/leave_block_list_date/leave_block_list_date.json
 msgctxt "Leave Block List Date"
 msgid "Block Date"
-msgstr ""
+msgstr "Data de Bloqueio"
 
 #. DocType: Leave Block List:1
 msgid "Block Days"
@@ -2601,7 +2613,7 @@ msgstr ""
 #: hr/doctype/leave_block_list/leave_block_list.json
 msgctxt "Leave Block List"
 msgid "Block Days"
-msgstr ""
+msgstr "Dias de Bloqueio"
 
 #. DocType: Leave Block List:1
 msgid "Block Holidays on important days."
@@ -2615,7 +2627,7 @@ msgstr ""
 #: hr/doctype/appointment_letter/appointment_letter.json
 msgctxt "Appointment Letter"
 msgid "Body"
-msgstr ""
+msgstr "Corpo"
 
 #. DocType: Retention Bonus:1
 msgid "Bonus"
@@ -2625,7 +2637,7 @@ msgstr ""
 #: payroll/doctype/retention_bonus/retention_bonus.json
 msgctxt "Retention Bonus"
 msgid "Bonus"
-msgstr ""
+msgstr "Bônus"
 
 #. DocType: Retention Bonus:1
 msgid "Bonus Amount"
@@ -2635,7 +2647,7 @@ msgstr ""
 #: payroll/doctype/retention_bonus/retention_bonus.json
 msgctxt "Retention Bonus"
 msgid "Bonus Amount"
-msgstr ""
+msgstr "Valor do Bônus"
 
 #. DocType: Retention Bonus:1
 msgid "Bonus Payment Date"
@@ -2645,11 +2657,11 @@ msgstr ""
 #: payroll/doctype/retention_bonus/retention_bonus.json
 msgctxt "Retention Bonus"
 msgid "Bonus Payment Date"
-msgstr ""
+msgstr "Data de Pagamento do Bônus"
 
 #: payroll/doctype/retention_bonus/retention_bonus.py:17
 msgid "Bonus Payment Date cannot be a past date"
-msgstr ""
+msgstr "A data de Pagamento do Bônus não pode ser uma data passada"
 
 #. DocType: Vehicle Service:1
 msgid "Brake Oil"
@@ -2679,43 +2691,43 @@ msgstr ""
 #: payroll/report/salary_register/salary_register.py:135
 #: public/js/salary_slip_deductions_report_filters.js:48
 msgid "Branch"
-msgstr ""
+msgstr "Filial"
 
 #. Label of a Link field in DocType 'Appraisal Cycle'
 #: hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgctxt "Appraisal Cycle"
 msgid "Branch"
-msgstr ""
+msgstr "Filial"
 
 #. Label of a Link field in DocType 'Appraisee'
 #: hr/doctype/appraisee/appraisee.json
 msgctxt "Appraisee"
 msgid "Branch"
-msgstr ""
+msgstr "Filial"
 
 #. Label of a Link in the HR Workspace
 #: hr/workspace/hr/hr.json
 msgctxt "Branch"
 msgid "Branch"
-msgstr ""
+msgstr "Filial"
 
 #. Label of a Link field in DocType 'Employee Attendance Tool'
 #: hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 msgctxt "Employee Attendance Tool"
 msgid "Branch"
-msgstr ""
+msgstr "Filial"
 
 #. Label of a Link field in DocType 'Payroll Entry'
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Branch"
-msgstr ""
+msgstr "Filial"
 
 #. Label of a Link field in DocType 'Salary Slip'
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Branch"
-msgstr ""
+msgstr "Filial"
 
 #. DocType: Leave Control Panel:1
 msgid "Branch (optional)"
@@ -2725,15 +2737,15 @@ msgstr ""
 #: hr/doctype/leave_control_panel/leave_control_panel.json
 msgctxt "Leave Control Panel"
 msgid "Branch (optional)"
-msgstr ""
+msgstr "Filial (opcional)"
 
 #: payroll/doctype/payroll_entry/payroll_entry.py:144
 msgid "Branch: {0}"
-msgstr ""
+msgstr "Filial: {0}"
 
 #: hr/doctype/leave_policy_assignment/leave_policy_assignment_list.js:4
 msgid "Bulk Leave Policy Assignment"
-msgstr ""
+msgstr "Atribuição de política de licença em massa"
 
 #. DocType: Salary Slip:1
 #: payroll/report/income_tax_computation/income_tax_computation.py:515
@@ -2754,7 +2766,7 @@ msgstr ""
 #: payroll/doctype/gratuity_rule/gratuity_rule.json
 msgctxt "Gratuity Rule"
 msgid "Calculate Gratuity Amount Based On"
-msgstr ""
+msgstr "Calcular o Valor da Gratificação com base em"
 
 #. DocType: Payroll Settings:1
 msgid "Calculate Payroll Working Days Based On"
@@ -2764,7 +2776,7 @@ msgstr ""
 #: payroll/doctype/payroll_settings/payroll_settings.json
 msgctxt "Payroll Settings"
 msgid "Calculate Payroll Working Days Based On"
-msgstr ""
+msgstr "Calcular dias úteis da folha de pagamento com base em"
 
 #. DocType: Leave Type:1
 msgid "Calculated in days"
@@ -2774,15 +2786,15 @@ msgstr ""
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "Calculated in days"
-msgstr ""
+msgstr "Calculado em dias"
 
 #: setup.py:325
 msgid "Calls"
-msgstr ""
+msgstr "Chamadas"
 
 #: setup.py:387
 msgid "Campaign"
-msgstr ""
+msgstr "Campanha"
 
 #: payroll/doctype/salary_structure/salary_structure.js:214
 msgid ""
@@ -2798,91 +2810,97 @@ msgstr ""
 #: hr/doctype/appraisal/appraisal.json
 msgctxt "Appraisal"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Employee Advance'
 #: hr/doctype/employee_advance/employee_advance.json
 msgctxt "Employee Advance"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Exit Interview'
 #: hr/doctype/exit_interview/exit_interview.json
 msgctxt "Exit Interview"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Expense Claim'
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Gratuity'
 #: payroll/doctype/gratuity/gratuity.json
 msgctxt "Gratuity"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Job Requisition'
 #: hr/doctype/job_requisition/job_requisition.json
 msgctxt "Job Requisition"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Leave Application'
 #: hr/doctype/leave_application/leave_application.json
 msgctxt "Leave Application"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Payroll Entry'
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Salary Slip'
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Training Event'
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #. Option for a Select field in DocType 'Training Program'
 #: hr/doctype/training_program/training_program.json
 msgctxt "Training Program"
 msgid "Cancelled"
-msgstr ""
+msgstr "Cancelado"
 
 #: payroll/doctype/salary_slip/salary_slip.py:188
 msgid "Cannot create Salary Slip for Employee joining after Payroll Period"
 msgstr ""
+"Não é possível criar um comprovante de salário para um funcionário que "
+"ingressou após o período da folha de pagamento"
 
 #: payroll/doctype/salary_slip/salary_slip.py:191
 msgid "Cannot create Salary Slip for Employee who has left before Payroll Period"
 msgstr ""
+"Não é possível criar comprovante de salário para funcionário que saiu antes "
+"do período da folha de pagamento"
 
 #: hr/doctype/job_applicant/job_applicant.py:49
 msgid "Cannot create a Job Applicant against a closed Job Opening"
 msgstr ""
+"Não é possível criar um candidato a emprego em uma vaga de emprego fechada"
 
 #: hr/doctype/appraisal_cycle/appraisal_cycle.py:200
 msgid "Cannot create or change transactions against a {0} Appraisal Cycle."
 msgstr ""
+"Não é possível criar ou modificar transações em um ciclo de avaliação {0}."
 
 #: hr/doctype/leave_application/leave_application.py:479
 msgid "Cannot find active Leave Period"
-msgstr ""
+msgstr "Não é possível encontrar o período de férias ativo"
 
 #: hr/doctype/attendance/attendance.py:145
 msgid "Cannot mark attendance for an Inactive employee {0}"
-msgstr ""
+msgstr "Não é possível marcar presença para um funcionário inativo {0}"
 
 #: payroll/doctype/salary_structure/salary_structure.js:224
 msgid ""
@@ -2899,10 +2917,11 @@ msgstr ""
 #: payroll/doctype/payroll_entry/payroll_entry.py:60
 msgid "Cannot submit. Attendance is not marked for some employees."
 msgstr ""
+"Não é possível enviar. A presença não foi marcada para alguns funcionários."
 
 #: hr/doctype/leave_allocation/leave_allocation.py:139
 msgid "Cannot update allocation for {0} after submission"
-msgstr ""
+msgstr "Não é possível atualizar a alocação para {0} após o envio"
 
 #. DocType: Leave Control Panel:1
 msgid "Carry Forward"
@@ -2912,13 +2931,13 @@ msgstr ""
 #: hr/doctype/leave_control_panel/leave_control_panel.json
 msgctxt "Leave Control Panel"
 msgid "Carry Forward"
-msgstr ""
+msgstr "Proceder"
 
 #. Label of a Section Break field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
 msgctxt "Leave Type"
 msgid "Carry Forward"
-msgstr ""
+msgstr "Transferência de férias"
 
 #. DocType: Leave Allocation:1
 msgid "Carry Forwarded Leaves"
@@ -2928,11 +2947,11 @@ msgstr ""
 #: hr/doctype/leave_allocation/leave_allocation.json
 msgctxt "Leave Allocation"
 msgid "Carry Forwarded Leaves"
-msgstr ""
+msgstr "Licenças por Transferência"
 
 #: setup.py:333 setup.py:334
 msgid "Casual Leave"
-msgstr ""
+msgstr "Licença Casual"
 
 #. DocType: Employee Grievance:1
 msgid "Cause of Grievance"
@@ -2942,7 +2961,7 @@ msgstr ""
 #: hr/doctype/employee_grievance/employee_grievance.json
 msgctxt "Employee Grievance"
 msgid "Cause of Grievance"
-msgstr ""
+msgstr "Causa da Reclamação"
 
 #. DocType: Vehicle Service:1
 msgid "Change"
@@ -2952,29 +2971,32 @@ msgstr ""
 #: hr/doctype/vehicle_service/vehicle_service.json
 msgctxt "Vehicle Service"
 msgid "Change"
-msgstr ""
+msgstr "Alteração"
 
 #: hr/doctype/goal/goal.js:79
 msgid ""
 "Changing KRA in this parent goal will align all the child goals to the "
 "same KRA, if any."
 msgstr ""
+"A alteração da Área de responsabilidade principal nessa meta principal "
+"alinhará todas as metas secundárias a mesma Área de responsabilidade "
+"principal, se houver."
 
 #. Label of a Link in the Salary Payout Workspace
 #: payroll/workspace/salary_payout/salary_payout.json
 msgctxt "Account"
 msgid "Chart of Accounts"
-msgstr ""
+msgstr "Plano de Contas"
 
 #. Label of a Link in the Salary Payout Workspace
 #: payroll/workspace/salary_payout/salary_payout.json
 msgctxt "Cost Center"
 msgid "Chart of Cost Centers"
-msgstr ""
+msgstr "Plano de Centros de Custo"
 
 #: payroll/doctype/payroll_entry/payroll_entry.py:1207
 msgid "Check Error Log {0} for more details."
-msgstr ""
+msgstr "Verifique o registro de erros {0} para obter mais detalhes."
 
 #. DocType: HR Settings:1
 msgid "Check Vacancies On Job Offer Creation"
