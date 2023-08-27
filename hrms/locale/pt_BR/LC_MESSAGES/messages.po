@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2023-07-17 20:17+0000\n"
-"PO-Revision-Date: 2023-08-17 17:58+0000\n"
+"PO-Revision-Date: 2023-08-27 17:46+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "hrms/pt_BR/>\n"
@@ -769,6 +769,8 @@ msgid ""
 "Added tax components from the Salary Component master as the salary "
 "structure didn't have any tax component."
 msgstr ""
+"Foram adicionados Componentes de Imposto do Cadastro de Componentes de "
+"Salário, pois a estrutura salarial não tinha nenhum componente de imposto."
 
 #: hr/doctype/employee_promotion/employee_promotion.js:166
 #: hr/doctype/employee_transfer/employee_transfer.js:166
@@ -1089,28 +1091,35 @@ msgstr "Permitir usuários"
 #. DocType: Shift Type:1
 msgid "Allow check-out after shift end time (in minutes)"
 msgstr ""
+"Permitir Bater Ponto de Saída após o horário de término do turno (em minutos)"
 
 #. Label of a Int field in DocType 'Shift Type'
 #: hr/doctype/shift_type/shift_type.json
 msgctxt "Shift Type"
 msgid "Allow check-out after shift end time (in minutes)"
 msgstr ""
+"Permitir Bater Ponto de Saída após o horário de término do turno (em minutos)"
 
 #. DocType: Leave Block List:1
 msgid "Allow the following users to approve Leave Applications for block days."
 msgstr ""
+"Permita que os seguintes usuários aprovem solicitações de férias para dias "
+"bloqueados."
 
 #. Description of a Section Break field in DocType 'Leave Block List'
 #: hr/doctype/leave_block_list/leave_block_list.json
 msgctxt "Leave Block List"
 msgid "Allow the following users to approve Leave Applications for block days."
 msgstr ""
+"Permita que os seguintes usuários aprovem solicitações de férias para dias "
+"bloqueados."
 
 #. DocType: Leave Type:1
 msgid ""
 "Allows allocating more leaves than the number of days in the allocation "
 "period."
 msgstr ""
+"Permitir alocar mais licenças do que o número de dias no período de alocação."
 
 #. Description of a Check field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
@@ -1119,429 +1128,436 @@ msgid ""
 "Allows allocating more leaves than the number of days in the allocation "
 "period."
 msgstr ""
+"Permitir alocar mais licenças do que o número de dias no período de alocação."
 
 #. DocType: Shift Type:1
 msgid "Alternating entries as IN and OUT during the same shift"
-msgstr ""
+msgstr "Entradas alternadas como ENTRADA e SAIDA durante o mesmo turno"
 
 #. Option for a Select field in DocType 'Shift Type'
 #: hr/doctype/shift_type/shift_type.json
 msgctxt "Shift Type"
 msgid "Alternating entries as IN and OUT during the same shift"
-msgstr ""
+msgstr "Entradas alternadas como ENTRADA e SAIDA durante o mesmo turno"
 
 #. DocType: Appraisal:1
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Additional Salary'
 #: payroll/doctype/additional_salary/additional_salary.json
 msgctxt "Additional Salary"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Appraisal'
 #: hr/doctype/appraisal/appraisal.json
 msgctxt "Appraisal"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Attendance'
 #: hr/doctype/attendance/attendance.json
 msgctxt "Attendance"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Attendance Request'
 #: hr/doctype/attendance_request/attendance_request.json
 msgctxt "Attendance Request"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Compensatory Leave Request'
 #: hr/doctype/compensatory_leave_request/compensatory_leave_request.json
 msgctxt "Compensatory Leave Request"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Advance'
 #: hr/doctype/employee_advance/employee_advance.json
 msgctxt "Employee Advance"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Benefit Application'
 #: payroll/doctype/employee_benefit_application/employee_benefit_application.json
 msgctxt "Employee Benefit Application"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Benefit Claim'
 #: payroll/doctype/employee_benefit_claim/employee_benefit_claim.json
 msgctxt "Employee Benefit Claim"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Grievance'
 #: hr/doctype/employee_grievance/employee_grievance.json
 msgctxt "Employee Grievance"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Incentive'
 #: payroll/doctype/employee_incentive/employee_incentive.json
 msgctxt "Employee Incentive"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Onboarding'
 #: hr/doctype/employee_onboarding/employee_onboarding.json
 msgctxt "Employee Onboarding"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Other Income'
 #: payroll/doctype/employee_other_income/employee_other_income.json
 msgctxt "Employee Other Income"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Performance Feedback'
 #: hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 msgctxt "Employee Performance Feedback"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Promotion'
 #: hr/doctype/employee_promotion/employee_promotion.json
 msgctxt "Employee Promotion"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Referral'
 #: hr/doctype/employee_referral/employee_referral.json
 msgctxt "Employee Referral"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Separation'
 #: hr/doctype/employee_separation/employee_separation.json
 msgctxt "Employee Separation"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Tax Exemption Declaration'
 #: payroll/doctype/employee_tax_exemption_declaration/employee_tax_exemption_declaration.json
 msgctxt "Employee Tax Exemption Declaration"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Tax Exemption Proof Submission'
 #: payroll/doctype/employee_tax_exemption_proof_submission/employee_tax_exemption_proof_submission.json
 msgctxt "Employee Tax Exemption Proof Submission"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Employee Transfer'
 #: hr/doctype/employee_transfer/employee_transfer.json
 msgctxt "Employee Transfer"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Exit Interview'
 #: hr/doctype/exit_interview/exit_interview.json
 msgctxt "Exit Interview"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Expense Claim'
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Full and Final Statement'
 #: hr/doctype/full_and_final_statement/full_and_final_statement.json
 msgctxt "Full and Final Statement"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Gratuity'
 #: payroll/doctype/gratuity/gratuity.json
 msgctxt "Gratuity"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Income Tax Slab'
 #: payroll/doctype/income_tax_slab/income_tax_slab.json
 msgctxt "Income Tax Slab"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Interview'
 #: hr/doctype/interview/interview.json
 msgctxt "Interview"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Interview Feedback'
 #: hr/doctype/interview_feedback/interview_feedback.json
 msgctxt "Interview Feedback"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Job Offer'
 #: hr/doctype/job_offer/job_offer.json
 msgctxt "Job Offer"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Leave Allocation'
 #: hr/doctype/leave_allocation/leave_allocation.json
 msgctxt "Leave Allocation"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Leave Application'
 #: hr/doctype/leave_application/leave_application.json
 msgctxt "Leave Application"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Leave Encashment'
 #: hr/doctype/leave_encashment/leave_encashment.json
 msgctxt "Leave Encashment"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Leave Ledger Entry'
 #: hr/doctype/leave_ledger_entry/leave_ledger_entry.json
 msgctxt "Leave Ledger Entry"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Leave Policy'
 #: hr/doctype/leave_policy/leave_policy.json
 msgctxt "Leave Policy"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Leave Policy Assignment'
 #: hr/doctype/leave_policy_assignment/leave_policy_assignment.json
 msgctxt "Leave Policy Assignment"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Payroll Entry'
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Retention Bonus'
 #: payroll/doctype/retention_bonus/retention_bonus.json
 msgctxt "Retention Bonus"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Salary Slip'
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Salary Structure'
 #: payroll/doctype/salary_structure/salary_structure.json
 msgctxt "Salary Structure"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Salary Structure Assignment'
 #: payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgctxt "Salary Structure Assignment"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Shift Assignment'
 #: hr/doctype/shift_assignment/shift_assignment.json
 msgctxt "Shift Assignment"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Shift Request'
 #: hr/doctype/shift_request/shift_request.json
 msgctxt "Shift Request"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Staffing Plan'
 #: hr/doctype/staffing_plan/staffing_plan.json
 msgctxt "Staffing Plan"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Training Event'
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Training Feedback'
 #: hr/doctype/training_feedback/training_feedback.json
 msgctxt "Training Feedback"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Training Program'
 #: hr/doctype/training_program/training_program.json
 msgctxt "Training Program"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Training Result'
 #: hr/doctype/training_result/training_result.json
 msgctxt "Training Result"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Travel Request'
 #: hr/doctype/travel_request/travel_request.json
 msgctxt "Travel Request"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. Label of a Link field in DocType 'Vehicle Log'
 #: hr/doctype/vehicle_log/vehicle_log.json
 msgctxt "Vehicle Log"
 msgid "Amended From"
-msgstr ""
+msgstr "Alterado De"
 
 #. DocType: Expense Claim Detail:1
 #: payroll/report/professional_tax_deductions/professional_tax_deductions.py:32
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. Label of a Currency field in DocType 'Additional Salary'
 #: payroll/doctype/additional_salary/additional_salary.json
 msgctxt "Additional Salary"
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. Label of a Currency field in DocType 'Employee Benefit Application Detail'
 #: payroll/doctype/employee_benefit_application_detail/employee_benefit_application_detail.json
 msgctxt "Employee Benefit Application Detail"
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. Label of a Currency field in DocType 'Employee Other Income'
 #: payroll/doctype/employee_other_income/employee_other_income.json
 msgctxt "Employee Other Income"
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. Label of a Currency field in DocType 'Expense Claim Detail'
 #: hr/doctype/expense_claim_detail/expense_claim_detail.json
 msgctxt "Expense Claim Detail"
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. Label of a Currency field in DocType 'Expense Taxes and Charges'
 #: hr/doctype/expense_taxes_and_charges/expense_taxes_and_charges.json
 msgctxt "Expense Taxes and Charges"
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. Label of a Currency field in DocType 'Full and Final Outstanding Statement'
 #: hr/doctype/full_and_final_outstanding_statement/full_and_final_outstanding_statement.json
 msgctxt "Full and Final Outstanding Statement"
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. Label of a Currency field in DocType 'Salary Component'
 #: payroll/doctype/salary_component/salary_component.json
 msgctxt "Salary Component"
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. Label of a Currency field in DocType 'Salary Detail'
 #: payroll/doctype/salary_detail/salary_detail.json
 msgctxt "Salary Detail"
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. DocType: Salary Component:1
 msgid "Amount based on formula"
-msgstr ""
+msgstr "Valor baseado na fórmula"
 
 #. Label of a Check field in DocType 'Salary Component'
 #: payroll/doctype/salary_component/salary_component.json
 msgctxt "Salary Component"
 msgid "Amount based on formula"
-msgstr ""
+msgstr "Valor baseado na fórmula"
 
 #. Label of a Check field in DocType 'Salary Detail'
 #: payroll/doctype/salary_detail/salary_detail.json
 msgctxt "Salary Detail"
 msgid "Amount based on formula"
-msgstr ""
+msgstr "Valor baseado na fórmula"
 
 #: payroll/doctype/additional_salary/additional_salary.py:30
 msgid "Amount should not be less than zero"
-msgstr ""
+msgstr "O valor não deve ser inferior a zero"
 
 #: payroll/doctype/employee_benefit_application/employee_benefit_application.py:58
 msgid ""
 "An amount of {0} already claimed for the component {1}, set the amount "
 "equal or greater than {2}"
 msgstr ""
+"Um valor de {0} já reivindicado para o componente {1}, defina o valor igual "
+"ou maior que {2}"
 
 #. DocType: Leave Policy Detail:1
 msgid "Annual Allocation"
-msgstr ""
+msgstr "Alocação anual"
 
 #. Label of a Float field in DocType 'Leave Policy Detail'
 #: hr/doctype/leave_policy_detail/leave_policy_detail.json
 msgctxt "Leave Policy Detail"
 msgid "Annual Allocation"
-msgstr ""
+msgstr "Alocação anual"
 
 #: setup.py:390
 msgid "Annual Salary"
-msgstr ""
+msgstr "Salário anual"
 
 #. DocType: Salary Slip:1
 msgid "Annual Taxable Amount"
-msgstr ""
+msgstr "Valor anual tributável"
 
 #. Label of a Currency field in DocType 'Salary Slip'
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Annual Taxable Amount"
-msgstr ""
+msgstr "Valor anual tributável"
 
 #. DocType: Travel Request:1
 msgid "Any other details"
-msgstr ""
+msgstr "Quaisquer outros detalhes"
 
 #. Label of a Small Text field in DocType 'Travel Request'
 #: hr/doctype/travel_request/travel_request.json
 msgctxt "Travel Request"
 msgid "Any other details"
-msgstr ""
+msgstr "Quaisquer outros detalhes"
 
 #. DocType: Appraisal:1
 msgid "Any other remarks, noteworthy effort that should go in the records"
 msgstr ""
+"Qualquer outra observação, esforço digno de nota que deva constar nos "
+"registros"
 
 #. Description of a Text field in DocType 'Appraisal'
 #: hr/doctype/appraisal/appraisal.json
 msgctxt "Appraisal"
 msgid "Any other remarks, noteworthy effort that should go in the records"
 msgstr ""
+"Qualquer outra observação, esforço digno de nota que deva constar nos "
+"registros"
 
 #. DocType: Leave Type:1
 msgid "Applicable After (Working Days)"
-msgstr ""
+msgstr "Aplicável após (dias úteis)"
 
 #. Label of a Int field in DocType 'Leave Type'
 #: hr/doctype/leave_type/leave_type.json
