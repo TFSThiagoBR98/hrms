@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2023-07-17 20:17+0000\n"
-"PO-Revision-Date: 2023-08-27 17:46+0000\n"
+"PO-Revision-Date: 2023-08-27 18:12+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "hrms/pt_BR/>\n"
@@ -9342,7 +9342,7 @@ msgstr ""
 #. DocType: Appointment Letter:1
 #: hr/workspace/hr/hr.json
 msgid "HR"
-msgstr ""
+msgstr "RH"
 
 #. Label of a shortcut in the HR Workspace
 #: hr/workspace/hr/hr.json
@@ -9414,7 +9414,7 @@ msgstr ""
 #: payroll/doctype/salary_structure/salary_structure.json
 #: payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgid "HR Manager"
-msgstr ""
+msgstr "Gerente de RH"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
@@ -9493,7 +9493,7 @@ msgstr ""
 #: payroll/doctype/salary_structure/salary_structure.json
 #: payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgid "HR User"
-msgstr ""
+msgstr "Usuário do RH"
 
 #. DocType: Additional Salary:1
 msgid "HR-ADS-.YY.-.MM.-"
