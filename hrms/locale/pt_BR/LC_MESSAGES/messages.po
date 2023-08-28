@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2023-07-17 20:17+0000\n"
-"PO-Revision-Date: 2023-08-28 02:26+0000\n"
+"PO-Revision-Date: 2023-08-29 23:44+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "hrms/pt_BR/>\n"
@@ -10174,7 +10174,7 @@ msgstr ""
 #: hr/report/employee_leave_balance/employee_leave_balance.js:47
 #: hr/report/employee_leave_balance_summary/employee_leave_balance_summary.js:41
 msgid "Inactive"
-msgstr ""
+msgstr "Inativo"
 
 #. Option for a Select field in DocType 'Shift Assignment'
 #: hr/doctype/shift_assignment/shift_assignment.json
