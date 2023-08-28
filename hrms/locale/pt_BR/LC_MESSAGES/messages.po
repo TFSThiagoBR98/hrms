@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Frappe HR VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2023-07-17 20:17+0000\n"
-"PO-Revision-Date: 2023-08-28 00:33+0000\n"
+"PO-Revision-Date: 2023-08-28 02:26+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "hrms/pt_BR/>\n"
@@ -2750,13 +2750,13 @@ msgstr "Atribuição de política de licença em massa"
 #. DocType: Salary Slip:1
 #: payroll/report/income_tax_computation/income_tax_computation.py:515
 msgid "CTC"
-msgstr ""
+msgstr "Custo para a Empresa"
 
 #. Label of a Currency field in DocType 'Salary Slip'
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "CTC"
-msgstr ""
+msgstr "Custo para a Empresa"
 
 #. DocType: Gratuity Rule:1
 msgid "Calculate Gratuity Amount Based On"
@@ -3006,11 +3006,11 @@ msgstr ""
 #: hr/doctype/hr_settings/hr_settings.json
 msgctxt "HR Settings"
 msgid "Check Vacancies On Job Offer Creation"
-msgstr ""
+msgstr "Verificar vagas na criação de ofertas de emprego"
 
 #: hr/doctype/leave_policy_assignment/leave_policy_assignment.py:327
 msgid "Check {0} for more details"
-msgstr ""
+msgstr "Consulte {0} para obter mais detalhes"
 
 #. DocType: Travel Itinerary:1
 msgid "Check-in Date"
@@ -3020,7 +3020,7 @@ msgstr ""
 #: hr/doctype/travel_itinerary/travel_itinerary.json
 msgctxt "Travel Itinerary"
 msgid "Check-in Date"
-msgstr ""
+msgstr "Data de Entrada"
 
 #. DocType: Travel Itinerary:1
 msgid "Check-out Date"
@@ -3030,11 +3030,11 @@ msgstr ""
 #: hr/doctype/travel_itinerary/travel_itinerary.json
 msgctxt "Travel Itinerary"
 msgid "Check-out Date"
-msgstr ""
+msgstr "Data de Saída"
 
 #: hr/doctype/goal/goal_tree.js:51
 msgid "Child nodes can only be created under 'Group' type nodes"
-msgstr ""
+msgstr "Os nós filhos só podem ser criados em nós do tipo 'Grupo'"
 
 #. DocType: Employee Benefit Claim:1
 msgid "Claim Benefit For"
@@ -3044,7 +3044,7 @@ msgstr ""
 #: payroll/doctype/employee_benefit_claim/employee_benefit_claim.json
 msgctxt "Employee Benefit Claim"
 msgid "Claim Benefit For"
-msgstr ""
+msgstr "Solicitar benefício para"
 
 #. DocType: Employee Benefit Claim:1
 msgid "Claim Date"
@@ -3054,7 +3054,7 @@ msgstr ""
 #: payroll/doctype/employee_benefit_claim/employee_benefit_claim.json
 msgctxt "Employee Benefit Claim"
 msgid "Claim Date"
-msgstr ""
+msgstr "Data da Solicitação"
 
 #. DocType: Employee Advance:1
 msgid "Claimed"
@@ -3064,30 +3064,30 @@ msgstr ""
 #: hr/doctype/employee_advance/employee_advance.json
 msgctxt "Employee Advance"
 msgid "Claimed"
-msgstr ""
+msgstr "Reivindicado"
 
 #. DocType: Employee Advance:1
 #: hr/report/employee_advance_summary/employee_advance_summary.py:69
 msgid "Claimed Amount"
-msgstr ""
+msgstr "Valor reivindicado"
 
 #. Label of a Currency field in DocType 'Employee Advance'
 #: hr/doctype/employee_advance/employee_advance.json
 msgctxt "Employee Advance"
 msgid "Claimed Amount"
-msgstr ""
+msgstr "Valor reivindicado"
 
 #. Label of a Currency field in DocType 'Employee Benefit Claim'
 #: payroll/doctype/employee_benefit_claim/employee_benefit_claim.json
 msgctxt "Employee Benefit Claim"
 msgid "Claimed Amount"
-msgstr ""
+msgstr "Valor reivindicado"
 
 #. Label of a Card Break in the Expense Claims Workspace
 #: hr/workspace/expense_claims/expense_claims.json
 #: overrides/dashboard_overrides.py:73
 msgid "Claims"
-msgstr ""
+msgstr "Solicitações"
 
 #. DocType: Expense Claim:1
 msgid "Clearance Date"
@@ -3097,7 +3097,7 @@ msgstr ""
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Clearance Date"
-msgstr ""
+msgstr "Data de Liberação"
 
 #. DocType: Interview:1
 msgid "Cleared"
@@ -3107,19 +3107,19 @@ msgstr ""
 #: hr/doctype/interview/interview.json
 msgctxt "Interview"
 msgid "Cleared"
-msgstr ""
+msgstr "Liberado"
 
 #. Option for a Select field in DocType 'Interview Detail'
 #: hr/doctype/interview_detail/interview_detail.json
 msgctxt "Interview Detail"
 msgid "Cleared"
-msgstr ""
+msgstr "Liberado"
 
 #. Option for a Select field in DocType 'Interview Feedback'
 #: hr/doctype/interview_feedback/interview_feedback.json
 msgctxt "Interview Feedback"
 msgid "Cleared"
-msgstr ""
+msgstr "Liberado"
 
 #. DocType: Job Opening:1
 msgid "Closed"
@@ -3129,11 +3129,11 @@ msgstr ""
 #: hr/doctype/job_opening/job_opening.json
 msgctxt "Job Opening"
 msgid "Closed"
-msgstr ""
+msgstr "Fechado"
 
 #: hr/report/employee_leave_balance/employee_leave_balance.py:79
 msgid "Closing Balance"
-msgstr ""
+msgstr "Saldo Final"
 
 #. DocType: Appointment Letter:1
 msgid "Closing Notes"
@@ -3143,13 +3143,13 @@ msgstr ""
 #: hr/doctype/appointment_letter/appointment_letter.json
 msgctxt "Appointment Letter"
 msgid "Closing Notes"
-msgstr ""
+msgstr "Notas de Fechamento"
 
 #. Label of a Text field in DocType 'Appointment Letter Template'
 #: hr/doctype/appointment_letter_template/appointment_letter_template.json
 msgctxt "Appointment Letter Template"
 msgid "Closing Notes"
-msgstr ""
+msgstr "Notas de Fechamento"
 
 #. DocType: Vehicle Service:1
 msgid "Clutch Plate"
@@ -3164,7 +3164,7 @@ msgstr ""
 #: public/js/hierarchy_chart/hierarchy_chart_desktop.js:117
 #: public/js/hierarchy_chart/hierarchy_chart_desktop.js:122
 msgid "Collapse All"
-msgstr ""
+msgstr "Recolher Todos"
 
 #. DocType: Leave Application:1
 msgid "Color"
@@ -3174,7 +3174,7 @@ msgstr ""
 #: hr/doctype/leave_application/leave_application.json
 msgctxt "Leave Application"
 msgid "Color"
-msgstr ""
+msgstr "Cor"
 
 #. DocType: Interview Detail:1
 msgid "Comments"
@@ -3184,23 +3184,23 @@ msgstr ""
 #: hr/doctype/interview_detail/interview_detail.json
 msgctxt "Interview Detail"
 msgid "Comments"
-msgstr ""
+msgstr "Comentários"
 
 #. Label of a Text field in DocType 'Training Result Employee'
 #: hr/doctype/training_result_employee/training_result_employee.json
 msgctxt "Training Result Employee"
 msgid "Comments"
-msgstr ""
+msgstr "Comentários"
 
 #. Label of a Small Text field in DocType 'Travel Request Costing'
 #: hr/doctype/travel_request_costing/travel_request_costing.json
 msgctxt "Travel Request Costing"
 msgid "Comments"
-msgstr ""
+msgstr "Comentários"
 
 #: setup.py:379
 msgid "Commission"
-msgstr ""
+msgstr "Comissão"
 
 #. DocType: Appointment Letter:1
 #: hr/dashboard_chart_source/employees_by_age/employees_by_age.js:8
@@ -3227,342 +3227,342 @@ msgstr ""
 #: payroll/report/salary_register/salary_register.py:156
 #: public/js/salary_slip_deductions_report_filters.js:7
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Additional Salary'
 #: payroll/doctype/additional_salary/additional_salary.json
 msgctxt "Additional Salary"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Appointment Letter'
 #: hr/doctype/appointment_letter/appointment_letter.json
 msgctxt "Appointment Letter"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Appraisal'
 #: hr/doctype/appraisal/appraisal.json
 msgctxt "Appraisal"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Appraisal Cycle'
 #: hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgctxt "Appraisal Cycle"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Attendance'
 #: hr/doctype/attendance/attendance.json
 msgctxt "Attendance"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Attendance Request'
 #: hr/doctype/attendance_request/attendance_request.json
 msgctxt "Attendance Request"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link in the HR Workspace
 #: hr/workspace/hr/hr.json
 msgctxt "Company"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Advance'
 #: hr/doctype/employee_advance/employee_advance.json
 msgctxt "Employee Advance"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Attendance Tool'
 #: hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 msgctxt "Employee Attendance Tool"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Benefit Application'
 #: payroll/doctype/employee_benefit_application/employee_benefit_application.json
 msgctxt "Employee Benefit Application"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Benefit Claim'
 #: payroll/doctype/employee_benefit_claim/employee_benefit_claim.json
 msgctxt "Employee Benefit Claim"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Incentive'
 #: payroll/doctype/employee_incentive/employee_incentive.json
 msgctxt "Employee Incentive"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Onboarding'
 #: hr/doctype/employee_onboarding/employee_onboarding.json
 msgctxt "Employee Onboarding"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Onboarding Template'
 #: hr/doctype/employee_onboarding_template/employee_onboarding_template.json
 msgctxt "Employee Onboarding Template"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Other Income'
 #: payroll/doctype/employee_other_income/employee_other_income.json
 msgctxt "Employee Other Income"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Performance Feedback'
 #: hr/doctype/employee_performance_feedback/employee_performance_feedback.json
 msgctxt "Employee Performance Feedback"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Promotion'
 #: hr/doctype/employee_promotion/employee_promotion.json
 msgctxt "Employee Promotion"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Separation'
 #: hr/doctype/employee_separation/employee_separation.json
 msgctxt "Employee Separation"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Separation Template'
 #: hr/doctype/employee_separation_template/employee_separation_template.json
 msgctxt "Employee Separation Template"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Tax Exemption Declaration'
 #: payroll/doctype/employee_tax_exemption_declaration/employee_tax_exemption_declaration.json
 msgctxt "Employee Tax Exemption Declaration"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Tax Exemption Proof Submission'
 #: payroll/doctype/employee_tax_exemption_proof_submission/employee_tax_exemption_proof_submission.json
 msgctxt "Employee Tax Exemption Proof Submission"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Employee Transfer'
 #: hr/doctype/employee_transfer/employee_transfer.json
 msgctxt "Employee Transfer"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Exit Interview'
 #: hr/doctype/exit_interview/exit_interview.json
 msgctxt "Exit Interview"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Expense Claim'
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Expense Claim Account'
 #: hr/doctype/expense_claim_account/expense_claim_account.json
 msgctxt "Expense Claim Account"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Full and Final Statement'
 #: hr/doctype/full_and_final_statement/full_and_final_statement.json
 msgctxt "Full and Final Statement"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Goal'
 #: hr/doctype/goal/goal.json
 msgctxt "Goal"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Gratuity'
 #: payroll/doctype/gratuity/gratuity.json
 msgctxt "Gratuity"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Income Tax Slab'
 #: payroll/doctype/income_tax_slab/income_tax_slab.json
 msgctxt "Income Tax Slab"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Job Offer'
 #: hr/doctype/job_offer/job_offer.json
 msgctxt "Job Offer"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Job Opening'
 #: hr/doctype/job_opening/job_opening.json
 msgctxt "Job Opening"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Job Requisition'
 #: hr/doctype/job_requisition/job_requisition.json
 msgctxt "Job Requisition"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Leave Allocation'
 #: hr/doctype/leave_allocation/leave_allocation.json
 msgctxt "Leave Allocation"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Leave Application'
 #: hr/doctype/leave_application/leave_application.json
 msgctxt "Leave Application"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Leave Block List'
 #: hr/doctype/leave_block_list/leave_block_list.json
 msgctxt "Leave Block List"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Leave Control Panel'
 #: hr/doctype/leave_control_panel/leave_control_panel.json
 msgctxt "Leave Control Panel"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Leave Encashment'
 #: hr/doctype/leave_encashment/leave_encashment.json
 msgctxt "Leave Encashment"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Leave Ledger Entry'
 #: hr/doctype/leave_ledger_entry/leave_ledger_entry.json
 msgctxt "Leave Ledger Entry"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Leave Period'
 #: hr/doctype/leave_period/leave_period.json
 msgctxt "Leave Period"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Leave Policy Assignment'
 #: hr/doctype/leave_policy_assignment/leave_policy_assignment.json
 msgctxt "Leave Policy Assignment"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Payroll Entry'
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Payroll Period'
 #: payroll/doctype/payroll_period/payroll_period.json
 msgctxt "Payroll Period"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Retention Bonus'
 #: payroll/doctype/retention_bonus/retention_bonus.json
 msgctxt "Retention Bonus"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Salary Component Account'
 #: payroll/doctype/salary_component_account/salary_component_account.json
 msgctxt "Salary Component Account"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Salary Slip'
 #: payroll/doctype/salary_slip/salary_slip.json
 msgctxt "Salary Slip"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Salary Structure'
 #: payroll/doctype/salary_structure/salary_structure.json
 msgctxt "Salary Structure"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Salary Structure Assignment'
 #: payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgctxt "Salary Structure Assignment"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Shift Assignment'
 #: hr/doctype/shift_assignment/shift_assignment.json
 msgctxt "Shift Assignment"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Shift Request'
 #: hr/doctype/shift_request/shift_request.json
 msgctxt "Shift Request"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Staffing Plan'
 #: hr/doctype/staffing_plan/staffing_plan.json
 msgctxt "Staffing Plan"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Training Event'
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Label of a Link field in DocType 'Training Program'
 #: hr/doctype/training_program/training_program.json
 msgctxt "Training Program"
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. Name of a DocType
 #. DocType: Compensatory Leave Request:1
 #: hr/doctype/compensatory_leave_request/compensatory_leave_request.json
 msgid "Compensatory Leave Request"
-msgstr ""
+msgstr "Solicitação de Licença Compensatória"
 
 #. Label of a Link in the HR Workspace
 #. Label of a Link in the Leaves Workspace
 #: hr/workspace/hr/hr.json hr/workspace/leaves/leaves.json
 msgctxt "Compensatory Leave Request"
 msgid "Compensatory Leave Request"
-msgstr ""
+msgstr "Solicitação de Licença Compensatória"
 
 #. Label of a Link field in DocType 'Leave Allocation'
 #: hr/doctype/leave_allocation/leave_allocation.json
 msgctxt "Leave Allocation"
 msgid "Compensatory Leave Request"
-msgstr ""
+msgstr "Solicitação de Licença Compensatória"
 
 #: setup.py:342 setup.py:343
 msgid "Compensatory Off"
-msgstr ""
+msgstr "Folga Compensatória"
 
 #. DocType: Appraisal:1
 msgid "Completed"
@@ -3572,55 +3572,55 @@ msgstr ""
 #: hr/doctype/appraisal/appraisal.json
 msgctxt "Appraisal"
 msgid "Completed"
-msgstr ""
+msgstr "Concluído"
 
 #. Option for a Select field in DocType 'Appraisal Cycle'
 #: hr/doctype/appraisal_cycle/appraisal_cycle.json
 msgctxt "Appraisal Cycle"
 msgid "Completed"
-msgstr ""
+msgstr "Concluído"
 
 #. Option for a Select field in DocType 'Employee Onboarding'
 #: hr/doctype/employee_onboarding/employee_onboarding.json
 msgctxt "Employee Onboarding"
 msgid "Completed"
-msgstr ""
+msgstr "Concluído"
 
 #. Option for a Select field in DocType 'Employee Separation'
 #: hr/doctype/employee_separation/employee_separation.json
 msgctxt "Employee Separation"
 msgid "Completed"
-msgstr ""
+msgstr "Concluído"
 
 #. Option for a Select field in DocType 'Exit Interview'
 #: hr/doctype/exit_interview/exit_interview.json
 msgctxt "Exit Interview"
 msgid "Completed"
-msgstr ""
+msgstr "Concluído"
 
 #. Option for a Select field in DocType 'Goal'
 #: hr/doctype/goal/goal.json
 msgctxt "Goal"
 msgid "Completed"
-msgstr ""
+msgstr "Concluído"
 
 #. Option for a Select field in DocType 'Training Event'
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Completed"
-msgstr ""
+msgstr "Concluído"
 
 #. Option for a Select field in DocType 'Training Event Employee'
 #: hr/doctype/training_event_employee/training_event_employee.json
 msgctxt "Training Event Employee"
 msgid "Completed"
-msgstr ""
+msgstr "Concluído"
 
 #. Option for a Select field in DocType 'Training Program'
 #: hr/doctype/training_program/training_program.json
 msgctxt "Training Program"
 msgid "Completed"
-msgstr ""
+msgstr "Concluído"
 
 #. DocType: Job Requisition:1
 msgid "Completed On"
@@ -3630,7 +3630,7 @@ msgstr ""
 #: hr/doctype/job_requisition/job_requisition.json
 msgctxt "Job Requisition"
 msgid "Completed On"
-msgstr ""
+msgstr "Concluído em"
 
 #. DocType: Full and Final Outstanding Statement:1
 msgid "Component"
@@ -3640,13 +3640,13 @@ msgstr ""
 #: hr/doctype/full_and_final_outstanding_statement/full_and_final_outstanding_statement.json
 msgctxt "Full and Final Outstanding Statement"
 msgid "Component"
-msgstr ""
+msgstr "Componente"
 
 #. Label of a Link field in DocType 'Salary Detail'
 #: payroll/doctype/salary_detail/salary_detail.json
 msgctxt "Salary Detail"
 msgid "Component"
-msgstr ""
+msgstr "Componente"
 
 #. DocType: Salary Detail:1
 msgid "Component properties and references "
@@ -3656,7 +3656,7 @@ msgstr ""
 #: payroll/doctype/salary_detail/salary_detail.json
 msgctxt "Salary Detail"
 msgid "Component properties and references "
-msgstr ""
+msgstr "Propriedades e referências do componente "
 
 #. DocType: Salary Component:1
 msgid "Condition"
@@ -3666,19 +3666,19 @@ msgstr ""
 #: payroll/doctype/salary_component/salary_component.json
 msgctxt "Salary Component"
 msgid "Condition"
-msgstr ""
+msgstr "Condição"
 
 #. Label of a Code field in DocType 'Salary Detail'
 #: payroll/doctype/salary_detail/salary_detail.json
 msgctxt "Salary Detail"
 msgid "Condition"
-msgstr ""
+msgstr "Condição"
 
 #. Label of a Code field in DocType 'Taxable Salary Slab'
 #: payroll/doctype/taxable_salary_slab/taxable_salary_slab.json
 msgctxt "Taxable Salary Slab"
 msgid "Condition"
-msgstr ""
+msgstr "Condição"
 
 #. DocType: Salary Component:1
 msgid "Condition & Formula"
@@ -3688,12 +3688,12 @@ msgstr ""
 #: payroll/doctype/salary_component/salary_component.json
 msgctxt "Salary Component"
 msgid "Condition & Formula"
-msgstr ""
+msgstr "Condição e Fórmula"
 
 #: payroll/doctype/salary_structure/salary_structure.js:340
 #: payroll/doctype/salary_structure/salary_structure.js:344
 msgid "Condition and Formula Help"
-msgstr ""
+msgstr "Ajuda com a Condição e Fórmula"
 
 #. DocType: Salary Detail:1
 msgid "Condition and formula"
@@ -3703,7 +3703,7 @@ msgstr ""
 #: payroll/doctype/salary_detail/salary_detail.json
 msgctxt "Salary Detail"
 msgid "Condition and formula"
-msgstr ""
+msgstr "Condição e fórmula"
 
 #. DocType: Income Tax Slab Other Charges:1
 msgid "Conditions"
@@ -3713,7 +3713,7 @@ msgstr ""
 #: payroll/doctype/income_tax_slab_other_charges/income_tax_slab_other_charges.json
 msgctxt "Income Tax Slab Other Charges"
 msgid "Conditions"
-msgstr ""
+msgstr "Condições"
 
 #. DocType: Salary Structure:1
 msgid "Conditions and Formula variable and example"
@@ -3721,9 +3721,10 @@ msgstr ""
 
 #. Label of a HTML field in DocType 'Salary Structure'
 #: payroll/doctype/salary_structure/salary_structure.json
+#, fuzzy
 msgctxt "Salary Structure"
 msgid "Conditions and Formula variable and example"
-msgstr ""
+msgstr "Condições e variável de fórmula e exemplo"
 
 #. DocType: Training Event:1
 msgid "Conference"
@@ -3733,7 +3734,7 @@ msgstr ""
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Conference"
-msgstr ""
+msgstr "Conferência"
 
 #. DocType: Job Requisition:1
 msgid "Connections"
@@ -3743,17 +3744,17 @@ msgstr ""
 #: hr/doctype/job_requisition/job_requisition.json
 msgctxt "Job Requisition"
 msgid "Connections"
-msgstr ""
+msgstr "Conexões"
 
 #. Label of a Tab Break field in DocType 'Payroll Entry'
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Connections"
-msgstr ""
+msgstr "Conexões"
 
 #: payroll/report/income_tax_computation/income_tax_computation.js:40
 msgid "Consider Tax Exemption Declaration"
-msgstr ""
+msgstr "Considerar a declaração de isenção de impostos"
 
 #. DocType: Payroll Settings:1
 msgid "Consider Unmarked Attendance As"
@@ -3763,11 +3764,11 @@ msgstr ""
 #: payroll/doctype/payroll_settings/payroll_settings.json
 msgctxt "Payroll Settings"
 msgid "Consider Unmarked Attendance As"
-msgstr ""
+msgstr "Considerar o comparecimento não marcado como"
 
 #: hr/report/employee_leave_balance/employee_leave_balance.js:55
 msgid "Consolidate Leave Types"
-msgstr ""
+msgstr "Consolidar tipos de licença"
 
 #. DocType: Travel Request:1
 msgid "Contact Email"
@@ -3777,7 +3778,7 @@ msgstr ""
 #: hr/doctype/travel_request/travel_request.json
 msgctxt "Travel Request"
 msgid "Contact Email"
-msgstr ""
+msgstr "Email de Contato"
 
 #. DocType: Employee Referral:1
 msgid "Contact No."
@@ -3787,7 +3788,7 @@ msgstr ""
 #: hr/doctype/employee_referral/employee_referral.json
 msgctxt "Employee Referral"
 msgid "Contact No."
-msgstr ""
+msgstr "Nº Contato."
 
 #. DocType: Training Event:1
 msgid "Contact Number"
@@ -3797,23 +3798,23 @@ msgstr ""
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Contact Number"
-msgstr ""
+msgstr "Número de contato"
 
 #. Label of a Data field in DocType 'Training Program'
 #: hr/doctype/training_program/training_program.json
 msgctxt "Training Program"
 msgid "Contact Number"
-msgstr ""
+msgstr "Número de contato"
 
 #. Label of a Data field in DocType 'Travel Request'
 #: hr/doctype/travel_request/travel_request.json
 msgctxt "Travel Request"
 msgid "Contact Number"
-msgstr ""
+msgstr "Número de contato"
 
 #: setup.py:378
 msgid "Contract"
-msgstr ""
+msgstr "Contrato"
 
 #. DocType: Travel Request:1
 msgid "Copy of Invitation/Announcement"
@@ -3821,13 +3822,14 @@ msgstr ""
 
 #. Label of a Attach field in DocType 'Travel Request'
 #: hr/doctype/travel_request/travel_request.json
+#, fuzzy
 msgctxt "Travel Request"
 msgid "Copy of Invitation/Announcement"
-msgstr ""
+msgstr "Cópia do convite/anúncio"
 
 #: hr/report/project_profitability/project_profitability.py:166
 msgid "Cost"
-msgstr ""
+msgstr "Custo"
 
 #. DocType: Expense Claim:1
 msgid "Cost Center"
@@ -3837,43 +3839,43 @@ msgstr ""
 #: payroll/doctype/employee_cost_center/employee_cost_center.json
 msgctxt "Employee Cost Center"
 msgid "Cost Center"
-msgstr ""
+msgstr "Centro de Custos"
 
 #. Label of a Link field in DocType 'Expense Claim'
 #: hr/doctype/expense_claim/expense_claim.json
 msgctxt "Expense Claim"
 msgid "Cost Center"
-msgstr ""
+msgstr "Centro de Custos"
 
 #. Label of a Link field in DocType 'Expense Claim Detail'
 #: hr/doctype/expense_claim_detail/expense_claim_detail.json
 msgctxt "Expense Claim Detail"
 msgid "Cost Center"
-msgstr ""
+msgstr "Centro de Custos"
 
 #. Label of a Link field in DocType 'Expense Taxes and Charges'
 #: hr/doctype/expense_taxes_and_charges/expense_taxes_and_charges.json
 msgctxt "Expense Taxes and Charges"
 msgid "Cost Center"
-msgstr ""
+msgstr "Centro de Custos"
 
 #. Label of a Link field in DocType 'Gratuity'
 #: payroll/doctype/gratuity/gratuity.json
 msgctxt "Gratuity"
 msgid "Cost Center"
-msgstr ""
+msgstr "Centro de Custos"
 
 #. Label of a Link field in DocType 'Payroll Entry'
 #: payroll/doctype/payroll_entry/payroll_entry.json
 msgctxt "Payroll Entry"
 msgid "Cost Center"
-msgstr ""
+msgstr "Centro de Custos"
 
 #. Label of a Link field in DocType 'Travel Request'
 #: hr/doctype/travel_request/travel_request.json
 msgctxt "Travel Request"
 msgid "Cost Center"
-msgstr ""
+msgstr "Centro de Custos"
 
 #. DocType: Salary Structure Assignment:1
 msgid "Cost Centers"
@@ -3883,7 +3885,7 @@ msgstr ""
 #: payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgctxt "Salary Structure Assignment"
 msgid "Cost Centers"
-msgstr ""
+msgstr "Centros de Custo"
 
 #. DocType: Travel Request:1
 msgid "Costing"
@@ -3893,7 +3895,7 @@ msgstr ""
 #: hr/doctype/travel_request/travel_request.json
 msgctxt "Travel Request"
 msgid "Costing"
-msgstr ""
+msgstr "Cálculo de custos"
 
 #. DocType: Travel Request:1
 msgid "Costing Details"
@@ -3903,15 +3905,15 @@ msgstr ""
 #: hr/doctype/travel_request/travel_request.json
 msgctxt "Travel Request"
 msgid "Costing Details"
-msgstr ""
+msgstr "Detalhes do cálculo de custos"
 
 #: payroll/doctype/payroll_entry/payroll_entry.py:1267
 msgid "Could not submit some Salary Slips: {}"
-msgstr ""
+msgstr "Não foi possível enviar alguns comprovantes de salário: {}"
 
 #: hr/doctype/goal/goal_tree.js:254
 msgid "Could not update progress"
-msgstr ""
+msgstr "Não foi possível atualizar o progresso"
 
 #. DocType: Job Applicant:1
 msgid "Country"
@@ -3921,7 +3923,7 @@ msgstr ""
 #: hr/doctype/job_applicant/job_applicant.json
 msgctxt "Job Applicant"
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #. DocType: Training Event:1
 msgid "Course"
@@ -3931,13 +3933,13 @@ msgstr ""
 #: hr/doctype/training_event/training_event.json
 msgctxt "Training Event"
 msgid "Course"
-msgstr ""
+msgstr "Curso"
 
 #. Label of a Data field in DocType 'Training Feedback'
 #: hr/doctype/training_feedback/training_feedback.json
 msgctxt "Training Feedback"
 msgid "Course"
-msgstr ""
+msgstr "Curso"
 
 #. DocType: Job Applicant:1
 msgid "Cover Letter"
@@ -3947,7 +3949,7 @@ msgstr ""
 #: hr/doctype/job_applicant/job_applicant.json
 msgctxt "Job Applicant"
 msgid "Cover Letter"
-msgstr ""
+msgstr "Carta de apresentação"
 
 #: hr/doctype/employee_advance/employee_advance.js:53
 #: hr/doctype/employee_advance/employee_advance.js:64
@@ -3962,31 +3964,31 @@ msgstr ""
 #: hr/doctype/vehicle_log/vehicle_log.js:10
 #: public/js/erpnext/delivery_trip.js:12
 msgid "Create"
-msgstr ""
+msgstr "Criar"
 
 #: hr/doctype/employee_referral/employee_referral.js:39
 msgid "Create Additional Salary"
-msgstr ""
+msgstr "Criar salário adicional"
 
 #: hr/doctype/appraisal_cycle/appraisal_cycle.js:35
 msgid "Create Appraisals"
-msgstr ""
+msgstr "Criar avaliações"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: hr/onboarding_step/create_department/create_department.json
 msgid "Create Department"
-msgstr ""
+msgstr "Criar departamento"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: hr/onboarding_step/create_designation/create_designation.json
 msgid "Create Designation"
-msgstr ""
+msgstr "Criar designação"
 
 #: hr/doctype/employee_loan/employee_loan.js:49
 msgid "Create Disbursement Entry"
-msgstr ""
+msgstr "Criar registro de desembolso"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
@@ -3994,57 +3996,57 @@ msgstr ""
 #: hr/onboarding_step/create_employee/create_employee.json
 #: payroll/onboarding_step/create_employee/create_employee.json
 msgid "Create Employee"
-msgstr ""
+msgstr "Criar Empregado"
 
 #. Title of a Module Onboarding
 #: hr/onboarding_step/create_holiday_list/create_holiday_list.json
 msgid "Create Holiday List"
-msgstr ""
+msgstr "Criar lista de feriados"
 
 #. Name of a DocType
 #: hr/onboarding_step/create_holiday_list/create_holiday_list.json
 msgid "Create Holiday list"
-msgstr ""
+msgstr "Criar Lista de feriados"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: payroll/onboarding_step/create_income_tax_slab/create_income_tax_slab.json
 msgid "Create Income Tax Slab"
-msgstr ""
+msgstr "Criar uma tabela de imposto de renda"
 
 #: hr/doctype/interview_round/interview_round.js:7
 msgid "Create Interview"
-msgstr ""
+msgstr "Criar entrevista"
 
 #: hr/doctype/employee_referral/employee_referral.js:21
 msgid "Create Job Applicant"
-msgstr ""
+msgstr "Criar candidato a emprego"
 
 #: hr/doctype/job_requisition/job_requisition.js:31
 msgid "Create Job Opening"
-msgstr ""
+msgstr "Criar uma vaga de emprego"
 
 #: hr/doctype/full_and_final_statement/full_and_final_statement.js:10
 msgid "Create Journal Entry"
-msgstr ""
+msgstr "Criar Entrada de Diário"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: hr/onboarding_step/create_leave_allocation/create_leave_allocation.json
 msgid "Create Leave Allocation"
-msgstr ""
+msgstr "Criar alocação de férias"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: hr/onboarding_step/create_leave_application/create_leave_application.json
 msgid "Create Leave Application"
-msgstr ""
+msgstr "Criar Pedido de Licença"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: hr/onboarding_step/create_leave_type/create_leave_type.json
 msgid "Create Leave Type"
-msgstr ""
+msgstr "Criar tipo de licença"
 
 #. DocType: Employee Transfer:1
 msgid "Create New Employee Id"
@@ -4054,41 +4056,41 @@ msgstr ""
 #: hr/doctype/employee_transfer/employee_transfer.json
 msgctxt "Employee Transfer"
 msgid "Create New Employee Id"
-msgstr ""
+msgstr "Criar novo ID de funcionário"
 
 #: payroll/doctype/gratuity/gratuity.js:36
 msgid "Create Payment Entry"
-msgstr ""
+msgstr "Criar Entrada de Pagamento"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: payroll/onboarding_step/create_payroll_period/create_payroll_period.json
 msgid "Create Payroll Period"
-msgstr ""
+msgstr "Criar período de folha de pagamento"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: payroll/onboarding_step/create_salary_component/create_salary_component.json
 msgid "Create Salary Component"
-msgstr ""
+msgstr "Criar componente salarial"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: payroll/onboarding_step/create_salary_slip/create_salary_slip.json
 #: public/js/erpnext/timesheet.js:8
 msgid "Create Salary Slip"
-msgstr ""
+msgstr "Criar comprovante de salário"
 
 #: payroll/doctype/payroll_entry/payroll_entry.js:60
 #: payroll/doctype/payroll_entry/payroll_entry.js:68
 msgid "Create Salary Slips"
-msgstr ""
+msgstr "Criar comprovantes de salário"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #: payroll/onboarding_step/create_salary_structure/create_salary_structure.json
 msgid "Create Salary Structure"
-msgstr ""
+msgstr "Criar estrutura salarial"
 
 #. DocType: Salary Component:1
 msgid "Create Separate Payment Entry Against Benefit Claim"
@@ -4098,36 +4100,36 @@ msgstr ""
 #: payroll/doctype/salary_component/salary_component.json
 msgctxt "Salary Component"
 msgid "Create Separate Payment Entry Against Benefit Claim"
-msgstr ""
+msgstr "Criar entrada de pagamento separada em relação ao pedido de benefício"
 
 #: hr/doctype/appraisal_cycle/appraisal_cycle.py:191
 msgid "Creating Appraisals"
-msgstr ""
+msgstr "Criando de avaliações"
 
 #: payroll/doctype/payroll_entry/payroll_entry.js:414
 msgid "Creating Payment Entries......"
-msgstr ""
+msgstr "Criando entradas de pagamento......"
 
 #: payroll/doctype/payroll_entry/payroll_entry.py:1229
 msgid "Creating Salary Slips..."
-msgstr ""
+msgstr "Criando de comprovantes de salário..."
 
 #. DocType: Employee Feedback Criteria:1
 #: hr/doctype/appraisal_template/appraisal_template.py:23
 msgid "Criteria"
-msgstr ""
+msgstr "Critério"
 
 #. Label of a Data field in DocType 'Employee Feedback Criteria'
 #: hr/doctype/employee_feedback_criteria/employee_feedback_criteria.json
 msgctxt "Employee Feedback Criteria"
 msgid "Criteria"
-msgstr ""
+msgstr "Critério"
 
 #. Label of a Link field in DocType 'Employee Feedback Rating'
 #: hr/doctype/employee_feedback_rating/employee_feedback_rating.json
 msgctxt "Employee Feedback Rating"
 msgid "Criteria"
-msgstr ""
+msgstr "Critério"
 
 #. DocType: Appraisal Template:1
 msgid ""
